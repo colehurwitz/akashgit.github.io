@@ -13,3 +13,5 @@ OS X and Ubuntu only. To be honest I'm quite new to all this scientific linux bu
 don't consider myself any close to being a super/power user, so maybe there are other 
 far better instructions available for this, but here is a what I think, quite a simple
 basic user's version of achieving it.
+
+Okay lets test something, [Click Here](lr_gradient.ipynb)
