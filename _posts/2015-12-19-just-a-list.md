@@ -5,7 +5,7 @@ date: 2015-12-19
 ---
 I finally figured out how to use [KaTex](https://github.com/Khan/KaTeX) last night and posted a something on the gradient of logistic regression to test things out.
 
-$$ x,y \in A, f(x+y) \leq f(x) + \forall f(y) $$
+$$ x,y \in A, f(x+y) \leq f(x) + \sum f(y) $$
 
 So now I've decided to maintain this list of mathematical words/jargons that I come across quite frequently in my field and everytime have to check wikipedia to refresh my memory. I hope this will make it easier for me to remember them. 
 
