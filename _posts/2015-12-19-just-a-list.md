@@ -12,7 +12,7 @@ A subadditive function is a function $$f:A \rightarrow B$$ , having a domain A a
 $$ \forall x,y \in A, f(x+y) \leq f(x) + f(y) $$
 
 **Submodular:**
-Let $$N$$ be a finite ground set and $$f:2^{N} \rightarrow \R$$. Then $$f$$ is submodular if $$\forall A,B \subseteq N$$,
+Let $$N$$ be a finite ground set and $$ f : 2^{N} \to \R $$. Then $$f$$ is submodular if $$\forall A,B \subseteq N$$,
 
 $$f(A) + f(B) \geq f(A \cup B) + f(A \cap B)$$
 
