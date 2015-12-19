@@ -14,6 +14,6 @@ don't consider myself any close to being a super/power user, so maybe there are 
 far better instructions available for this, but here is a what I think, quite a simple
 basic user's version of achieving it.
 
-
+$$ \sum_{i=1} $$
 
 Okay lets test something, [Click Here](https://github.com/akashgit/akashgit.github.io/blob/master/lr_gradient.ipynb)
