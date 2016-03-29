@@ -4,10 +4,8 @@ title: "Installing Tensorflow on Dice"
 date: 2016-03-29
 ---
 
-Right, yesterday during one of the reading groups meeting we decided to have the next session on TensorFlow installation on DICe machines.
-So I decided to test it out and find why it is considered to be problamatic. Since before installing
-Torch I have heard similar comments about it but it turned out to be extreamly straighforward so
-in the same spirit I wanted to find out what's the deal with tensorflow installation.
+Right, yesterday during one of the reading groups meeting we decided to have the next session on TensorFlow installation on DICE machines.
+So I decided to test it out and find why it is considered to be problamatic. 
 
 Turns out its very simple!
 
