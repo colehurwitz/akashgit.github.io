@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Installing Torch on Dice"
-date: 2015-12-06
+date: 2016-03-28
 ---
 
 So a few days ago I tried to install Torch7 on DICE machines. 
