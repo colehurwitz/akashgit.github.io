@@ -4,9 +4,11 @@ title: "Markdown Basics"
 date: 2016-07-28
 ---
 # Markdown Basics
+A
 ## Markdown Basics
+B
 ### Markdown Basics
-
+B
 * One
 * Two 
   * Three
