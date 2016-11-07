@@ -11,3 +11,9 @@ title: Akash Srivastava
 		on <a href="https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf">
 		variational inference</a> and <br>interactive machine learning primarily for unsupervised models. </p>
 </div><!-- /.blurb -->
+
+
+Akash Srivastava
+![profile](/profile.jpg) I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum), University of Edinburgh.
+I'm currently working with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) on [variational inference](https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf) and interactive machine learning primarily for unsupervised models.
+
