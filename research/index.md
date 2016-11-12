@@ -27,6 +27,8 @@ in LDA with a product of experts. By changing only one line of code from LDA, we
 that ProdLDA yields much more interpretable topics, even if LDA is trained via collapsed
 Gibbs sampling.
 
+---
+
 ## 2. [Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation] (https://arxiv.org/abs/1602.06886)
 
 ### Author `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
@@ -46,6 +48,8 @@ previous feedback, and a new clustering is then produced from the posterior dist
 To achieve the computational efficiency necessary for an interactive setting, we propose 
 an incremental optimization method over data minibatches using Lagrangian relaxation. 
 Experiments demonstrate that TINDER can produce accurate and diverse clusterings.
+
+---
 
 ## 3. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection] (http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
 
@@ -68,3 +72,4 @@ that uses cosine similarity to cluster together stories that are on the same top
 reducing false alarms. Our experiments show that the resultant FSD system performs
 substantially better than the document-pivoted state-of-art baseline system.
 
+---
