@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Blackbox and Approximate Neural Inference"
 date: 2016-11-12
