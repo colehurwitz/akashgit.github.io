@@ -38,7 +38,7 @@ NVIL is a more general method of inference that is equally applicable to both co
 
 $$L(x,\Theta,\phi)=E_{z \sim q}[\log p_\Theta(x, z) - \log q_\phi(z|x)]$$
 
-Like VAEs, in NVIL the variational posterior $$q_\phi(z|x)$$ is constructed using an inference network as well. The gradients of this ELBO *w.r.t* to $$\Theta$$ and $$\phi$$ are given as follows,
+Like VAEs, in NVIL the variational posterior $$q_{\phi}(z|x)$$ is constructed using an inference network as well. The gradients of this ELBO *w.r.t* to $$\Theta$$ and $$\phi$$ are given as follows,
 
 $$\nabla_\Theta L(x) = E_{z \sim q}[\nabla \log p_\Theta(x, z)]$$ and 
 
