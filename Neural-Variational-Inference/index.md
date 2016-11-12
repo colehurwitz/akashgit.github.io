@@ -20,7 +20,7 @@ E_{z \sim q}[\log p_\alpha(x|z)]-D_{KL}[q_\phi(z|x)||p_\gamma(z)]$$.
 
 ##### `Kingma and Welling, 2013`
 
-VAE uses the following ELBO, $$E_{z \sim q}[\log p_\alpha(x|z)]-D_{KL}[q_\phi(z|x)||p_\gamma(z)]$$. Where within the KL term instead of using the posterior $$p_\theta(z|x)$$ it regularizes the variational posterior by the prior $$p_\gamma(z)$$ over $$z$$.The benefit of this change is that unlike the (intractable) posteriors, priors are always available in Bayesian methods. The problematic term is the expectation over the log conditional of the data $$\log p_\alpha(x|z)$$. While this expectation cannot always be computed, it can always be approximated using *Monte-Carlo* (__MC__) given we can sample from the variational posterior. Considering that is true for at least some exponential family distributions we can therefore estimate the EBLO.
+---
 
 VAEs use a feed-forward neural network, called the *inference network* for generating the parameters $$\phi$$ of the variational posterior and a *recognition network* for decoding the data. Using an inference network for generating variational distribution imposes a certain smoothness assumtion over the data-points and hence instead of having a mean-filed type local parameters, the network allows sharing of global variational parameter. Training this network is problematic because by using MC for approximating the expectation in the above ELBO, discontinuity is introduced in the graph and hence back propogation is not possible. Back propogating through random sampler is a well studied problem and the way VAE solve it is by using the __reparametrization trick__/__Mat-trick__ which is applicable to any continuos distribution that has a __non-centered parametric form__. I do not want to get in detail of these tricks here as that would require a lot more space than I have, so I will finish this description of VAEs by saying that VAEs can be used as a __neural inference__ method for a large class of continuos latent state model where the prior over the latent variable has a __non-centered parametric form__. Recently, we also showed that VAEs can be used for __Dirichlet__ priors like in a topic model using __Laplace Approximation__. Details can be found [here](http://openreview.net/forum?id=BybtVK9lg). In future I will update this section for the more recent stuff such as,
 
@@ -42,7 +42,8 @@ Like VAEs, in NVIL the variational posterior $$q_\phi(z|x)$$ is constructed usin
 
 $$\nabla_\Theta L(x) = E_{z \sim q}[\nabla \log p_\Theta(x, z)]$$ and 
 
-$$\nabla_\phi L(x) = E_{z\sim q}[(\log p_\Theta(x, z) - \log q_\phi(z|x))* \nabla_\phi \log q_\phi(z|x)]$$.
+
+$$\nabla_\phi L(x) = E_{z\sim q}[(\log p_\Theta(x, z) - \log q_\phi(z|x))$$ x $$\nabla_\phi \log q_\phi(z|x)]$$.
 
 There is no problem with approximating $$\nabla_\Theta L(x)$$ with MC but the high variance in the MC approximation of $$\nabla_\phi L(x)$$ requires additional methods to train succesfully. To this end, the authors proposed two black-box methods of variance reduction in the gradient estimates. 
 
