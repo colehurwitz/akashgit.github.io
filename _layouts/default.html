@@ -8,8 +8,8 @@
 			<!-- Load jQuery -->
 			<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 			<!-- Load KaTeX -->
-			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
-			<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+			<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
 		</head>
 		<body>
 			<nav>
@@ -33,7 +33,9 @@
 				<li><a href="https://twitter.com/akash_sheffield">twitter</a></li>
 				</ul>
 			</footer>
-			<script>
+			
+		</body>
+		<script>
 			$("script[type='math/tex']").replaceWith(
 			  function(){
 			    var tex = $(this).text();
@@ -49,6 +51,5 @@
 			           katex.renderToString("\\displaystyle "+tex) +
 			           "</div>";
 			});
-			</script>
-		</body>
+		</script>
 	</html>
