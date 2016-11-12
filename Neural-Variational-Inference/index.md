@@ -38,12 +38,12 @@ NVIL is a more general method of inference that is equally applicable to both co
 
 $$L(x,\Theta,\phi)=E_{z \sim q}[\log p_\Theta(x, z) - \log q_\phi(z|x)]$$
 
-Like VAEs, in NVIL the variational posterior $$q_{\phi}(z,x)$$ is constructed using an inference network as well. The gradients of this ELBO *w.r.t* to $$\Theta$$ and $$\phi$$ are given as follows,
+Like VAEs, in NVIL the variational posterior $$q_{\phi}(z\vert x)$$ is constructed using an inference network as well. The gradients of this ELBO *w.r.t* to $$\Theta$$ and $$\phi$$ are given as follows,
 
 $$\nabla_\Theta L(x) = E_{z \sim q}[\nabla \log p_\Theta(x, z)]$$ and 
 
 
-$$\nabla_\phi L(x) = E_{z\sim q}[(\log p_\Theta(x, z) - \log q_\phi(z|x))$$ x $$\nabla_\phi \log q_\phi(z|x)]$$.
+$$\nabla_\phi L(x) = E_{z\sim q}[(\log p_\Theta(x, z) - \log q_\phi(z \vert x))$$ x $$\nabla_\phi \log q_\phi(z|x)]$$.
 
 There is no problem with approximating $$\nabla_\Theta L(x)$$ with MC but the high variance in the MC approximation of $$\nabla_\phi L(x)$$ requires additional methods to train succesfully. To this end, the authors proposed two black-box methods of variance reduction in the gradient estimates. 
 
