@@ -3,9 +3,9 @@ layout: default
 title: Research
 ---
 
-## 1. [Neural Variational Inference For Topic Models] (http://openreview.net/forum?id=BybtVK9lg)
+1. [Neural Variational Inference For Topic Models] (http://openreview.net/forum?id=BybtVK9lg)
 
-### [Code] (https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
+[Code] (https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
 
 ### Author `Akash Srivastava and Charles Sutton`
 
