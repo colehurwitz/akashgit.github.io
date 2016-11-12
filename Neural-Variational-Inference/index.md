@@ -60,6 +60,7 @@ A one line description (I will expand this later) of this technique: The expecta
 For the time being, I would only say that it is similar to carrying out __batch-normalization__. As above, I will expand this subsection over time.
 
 Although it is designed to be a black-box method, NVIL also allows benefiting from the local structure of the model.
+
 ---
 
 `...to be continued...`
