@@ -4,10 +4,9 @@ title: Research
 ---
 
 
-### 1. [Neural Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg)
-[Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
+## 1. [Neural Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
 
-> #### Authors `Akash Srivastava and Charles Sutton`
+> #### Authors: `Akash Srivastava and Charles Sutton`
 
 > #### Abstract
 
@@ -29,9 +28,9 @@ Gibbs sampling.
 
 ---
 
-### 2. [Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation](https://arxiv.org/abs/1602.06886)
+## 2. [Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation](https://arxiv.org/abs/1602.06886)
 
-> #### Authors `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
+> #### Authors: `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
 
 > #### Abstract
 
@@ -51,9 +50,9 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 ---
 
-### 3. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection](http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
+## 3. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection](http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
 
-> #### Author `Akash Srivastava`
+> #### Author: `Akash Srivastava`
 
 > #### Abstract 
 
