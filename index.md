@@ -17,7 +17,9 @@ title: Akash Srivastava
 ![profile](/profile.jpg)  I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum), University of Edinburgh.I'm currently working with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) on [neural variational inference](http://akashgit.github.io/Neural-Variational-Inference/) and interactive machine learning primarily for unsupervised models.
 
 ---
-## Latest: Our ICLR 2017 Submission:
+
+## Our ICLR 2017 Submission:
+
 ---
 
 ### 1. [Neural Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg)
