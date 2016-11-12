@@ -7,6 +7,8 @@ For quite sometime now I've been working on neural inference methods that have b
 
 With that lets delve staright into our main topic, __Approximate Neural Inference__ or as we will refer to it throughout this text, __NI__. Simply put, varitional inference (__VI__) is a deterministic method of carrying out approximate inference in probabilistic models when the posterior distribution over the variables of interest (or the latent state) is intractable. In order to do so, VI uses a tractable family of distributions to approximate the intractable posterior in an optimization procedure that usually minimizes the negative log-likelihood of the data that the model is trying to fit. Consider the following example,
 
+### Example
+
 Let $$p_\Theta(x)=\int_zp(x\vert z,\alpha)p(z\vert \beta)dz$$ be the likelihood of our data $$x$$ under our model parametrized by $$\Theta=\{\alpha,\beta\}$$ where $$z$$ (continuous or discrete in which case $$\int$$ can be replaced by $$\sum$$) is a latent variable. Assuming, the posterior distribution $$p_\theta(z\vert x)$$ is intractable, mean-field VI (which is a type of VI) approximates this posterior by first introducing variational parameters $$\phi$$ for each $$z$$ and then aprroximate the true posterior $$p_\theta(z\vert x)$$ by the variational posterior $$q_\phi(z\vert x)$$. In practice, instead of directly optimizing the negative log-likelihood to fit the posterior, VI methods use a simpler to optimize lowerbound on it (popularly referred to as the __ELBO__ or the evidence lowerbound). Traditional VI methods make use of *conjugate* priors over the latent variables to derive closed form `EM-like` updates for optimization, which accounts for their fast speed of inference. But this is also the reason for their limited applicability and/or accuracy. Not all models can leverage the convinience of conjugate priors. Another drawback is the need of repeated derivations for even minor changes in initial assumptions. __NI__ can be thought of as an alternative form or approximate varitational inference that has a certain *black-box* characteristic to it and therefore allows for carrying out approximate inference without the need to derive update equations even in the models that do not have conjugate priors. 
 
 I think that is all that we need to know from traditianal VI theory to proceed further. The only other thing that needs to be spelled out is the actual __ELBO__ that is optimized in the old methods can be written down in two equivallent ways as follows,
@@ -14,6 +16,8 @@ I think that is all that we need to know from traditianal VI theory to proceed f
 $$\log p_\Theta(x)\geq
 \log p_\Theta(x)-D_{KL}[q_\phi(z\vert x)\vert \vert p_\theta(z\vert x)]=
 E_{z \sim q}[\log p_\alpha(x\vert z)]-D_{KL}[q_\phi(z\vert x)\vert \vert p_\gamma(z)]$$.
+
+---
 
 ## 1. Variational Autoencoder (VAE) 
 
@@ -29,6 +33,7 @@ VAEs use a feed-forward neural network, called the *inference network* for gener
 
 #### 1.3 Using VAEs to Infer LDA-type Topic Models
 
+---
 
 ## 2. Neural Variational Inference Learning 
 
@@ -55,6 +60,7 @@ A one line description (I will expand this later) of this technique: The expecta
 For the time being, I would only say that it is similar to carrying out __batch-normalization__. As above, I will expand this subsection over time.
 
 Although it is designed to be a black-box method, NVIL also allows benefiting from the local structure of the model.
+---
 
 `...to be continued...`
 
