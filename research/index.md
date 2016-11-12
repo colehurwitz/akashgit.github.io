@@ -5,10 +5,9 @@ title: Research
 
 
 ### 1. [Neural Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg)
+[Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
 
-> #### [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
-
-> #### Author `Akash Srivastava and Charles Sutton`
+> #### Authors `Akash Srivastava and Charles Sutton`
 
 > #### Abstract
 
@@ -32,7 +31,7 @@ Gibbs sampling.
 
 ### 2. [Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation](https://arxiv.org/abs/1602.06886)
 
-> #### Author `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
+> #### Authors `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
 
 > #### Abstract
 
