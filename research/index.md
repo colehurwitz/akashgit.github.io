@@ -4,15 +4,15 @@ title: Research
 ---
 
 
-1. [Neural Variational Inference For Topic Models] (http://openreview.net/forum?id=BybtVK9lg)
+### 1. [Neural Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg)
 
-> > [Code] (https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
+> #### [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
 
-> > ### Author `Akash Srivastava and Charles Sutton`
+> #### Author `Akash Srivastava and Charles Sutton`
 
-> > ### Abstract
+> #### Abstract
 
-> > > Topic models are one of the most popular methods for learning representations 
+>> Topic models are one of the most popular methods for learning representations 
 of text, but a major challenge is that any change to the topic model requires 
 mathematically deriving a new inference algorithm. A promising approach to address
 this problem is neural variational inference (NVI), but they have proven difficult
@@ -30,13 +30,13 @@ Gibbs sampling.
 
 ---
 
-[Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation] (https://arxiv.org/abs/1602.06886)
+### 2. [Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation](https://arxiv.org/abs/1602.06886)
 
-### Author `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
+> #### Author `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
 
-### Abstract
+> #### Abstract
 
-> > A good clustering can help a data analyst to explore and understand a data set, 
+>> A good clustering can help a data analyst to explore and understand a data set, 
 but what constitutes a good clustering may depend on domain-specific and application
  specific criteria. These criteria can be difficult to formalize, even when it is easy 
 for an analyst to know a good clustering when she sees one. We present a new approach 
@@ -52,13 +52,13 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 ---
 
-[Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection] (http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
+### 3. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection](http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
 
-### Author `Akash Srivastava`
+> #### Author `Akash Srivastava`
 
-### Abstract 
+> #### Abstract 
 
-> > First Story Detection or FSD is one of the 5 tasks defined under the Topic Detection andTracking program with the purpose to identify the onset of a previously unseen event in
+>> First Story Detection or FSD is one of the 5 tasks defined under the Topic Detection andTracking program with the purpose to identify the onset of a previously unseen event in
 a stream of news stories. In this work, we report on the development and evaluation of
 a feature-pivoted approach to this task. Our method uses the output of a burst detection
 algorithm to modulate the traditional document clustering based approach to FSD.
