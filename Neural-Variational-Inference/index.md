@@ -67,6 +67,27 @@ Although it is designed to be a black-box method, NVIL also allows benefiting fr
 
 ## 3. Blackbox Variational Inference
 
+##### `Rajesh Ranganath, Sean Gerrish and David M. Blei, 2014`
+
+If I remember well, this is precursor to NVIL above. Essentially NVIL generalizes this method with an encoder to get variational parameters and therefore slightly different variance reduction techniques. The lowerbound is given by:
+
+$$L(\lambda)=E_{z \sim q_\lambda}[\log p(x, z) - \log q(z \vert \lambda)]$$
+
+Where $$\lambda$$ represents the free parameters. Then the gradients are given as:
+
+$$\nabla L(\lambda)=E_{z \sim q_\lambda}[\nabla_\lambda \log q(z \vert \lambda)(\log p(x, z) - \log q(z \vert \lambda))]$$
+
+and its monte carlo approximation becomes: 
+
+$$\nabla L(\lambda)\approx \frac{1}{S} \sum_{s = 1}^S \nabla_\lambda \log q(z_s \vert \lambda)(\log p(x, z_s) - \log q(z_s \vert \lambda))$$ where $$z \sim q_\lambda(z)$$
+
+This ELBO can be optimized using a gradient based method. But the variance of these gradients estimates is generally to high to work and therefore this method relies on the following variance reduction techniques to reduce this variance:
+
+#### 3.1 Rao-Blackwellization
+
+#### 3.2 Control Variates
+
+
 ## 4. Generative Adverserial Network (GAN)
 
 ## 5. ADVI
