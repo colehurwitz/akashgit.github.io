@@ -6,10 +6,10 @@ title: "Blackbox and Approximate Neural Inference"
 For quite sometime now I've been working on neural inference methods that have become very popular recently. There is an abundance of resources on these methods and that is precisely why I decided to write a considerably terse post about the most prominent of such techniques. Since this is only an attempt to summarize the vast body of work being done in this field, I will try to provide links to more detailed (read: much better than mine) posts and paper for each of the methods. As mentioned earlier, this is only an attempt to summarize this fairly sophisticated field, please correct me via comments if you find any mistakes in my description, of which I can promise there will be plenty to fix :) Lastly before starting, this is more of a *dynamic* post, meaning that I will keep updating the entries and adding details as I get time.
 
 With that lets delve straight into our main topic, __Approximate Neural Inference__ or as we will refer to it throughout this text, __NI__. Simply put, variational inference (__VI__) is a deterministic method of carrying out approximate inference in probabilistic models when the posterior distribution over the variables of interest (or the latent state) is intractable. In order to do so, VI uses a tractable family of distributions to approximate the intractable posterior in an optimization procedure that usually minimizes the negative log-likelihood of the data that the model is trying to fit. Consider the following example,
-```
+`
 <div class="pinkBorder">
 <h3> Update: <a href="http://homepages.inf.ed.ac.uk/imurray2/">Dr Iain Murry</a> has a nice self-contained, minimal stochastic variational inference demo in Matlab/Octave avilable <a href="http://www.inf.ed.ac.uk/teaching/courses/mlpr/2016/notes/svi_minimal.m">here</a> </h3>.
-</div>```
+</div>`
 
 ### Example
 
