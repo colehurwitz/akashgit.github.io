@@ -47,7 +47,7 @@ Like VAEs, in NVIL the variational posterior $$q_\phi(z\vert x)$$ is constructed
 
 $$\nabla_\Theta L(x) = E_{z \sim q}[\nabla \log p_\Theta(x, z)]$$ and 
 
-$$\nabla_\phi L(x) = E_{z\sim q}[(\log p_\Theta(x, z) - \log q_\phi(z\vert x))* \nabla_\phi \log q_\phi(z\vert x)]$$.
+$$\nabla_\phi L(x) = E_{z\sim q}[(\log p_\Theta(x, z) - \log q_\phi(z\vert x)). \nabla_\phi \log q_\phi(z\vert x)]$$.
 
 There is no problem with approximating $$\nabla_\Theta L(x)$$ with MC but the high variance in the MC approximation of $$\nabla_\phi L(x)$$ requires additional methods to train succesfully. To this end, the authors proposed two black-box methods of variance reduction in the gradient estimates. 
 
