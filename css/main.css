@@ -49,12 +49,12 @@ padding: 50px;
 .roundedBorder {
 border: 2px solid yellowgreen;
 border-radius: 20px;
-padding: 50px;
+padding: 20px;
 }
 
 .pinkBorder {
 border: 2px dashed pink;
-padding: 50px;
+padding: 30px;
 }
 h2.c {
     text-align: center;
