@@ -33,10 +33,8 @@ VAEs use a feed-forward neural network, called the *inference network* for gener
 
 #### 1.1 Normalizing Flows and Beyond
 
-.
 #### 1.2 Component Collapsing in VAEs and Training Tricks
 
-.
 #### 1.3 Using VAEs to Infer LDA-type Topic Models
 
 <div class="roundedBorder">
