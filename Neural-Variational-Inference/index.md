@@ -40,6 +40,9 @@ VAEs use a feed-forward neural network, called the *inference network* for gener
 <h2 class="c"> We recently released the code for <a href="http://openreview.net/pdf?id=BybtVK9lg">Nueral Variational Inference for Topic Models</a> available <a href="https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models">here</a> </h2>.
 </div>
 
+#### 1.4 Implementation
+
+While there are plenty of VAE implentations all over the web in almost every Deep Learning package I find the [this](https://jmetzen.github.io/2015-11-27/vae.html) `Tensorflow` implementation by Jan Hendrik Metzen quite intuitive and easy to follow. 
 ---
 
 ## 2. Neural Variational Inference Learning 
@@ -67,6 +70,10 @@ A one line description (I will expand this later) of this technique: The expecta
 For the time being, I would only say that it is similar to carrying out __batch-normalization__. As above, I will expand this subsection over time.
 
 Although it is designed to be a black-box method, NVIL also allows benefiting from the local structure of the model.
+
+#### 2.3 Implementation
+
+There are a few example implementation of this paper in `[theano]`(https://github.com/earcher/nvil_example) and `[Matlab]`(https://github.com/earcher/nvil_example).
 
 ---
 
