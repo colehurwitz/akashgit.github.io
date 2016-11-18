@@ -15,7 +15,7 @@ I think that is all that we need to know from traditianal VI theory to proceed f
 
 $$\log p_\Theta(x)\geq
 \log p_\Theta(x)-D_{KL}[q_\phi(z\vert x)\vert \vert p_\theta(z\vert x)]=
-E_{z \sim q}[\log p_\alpha(x\vert z)]-D_{KL}[q_\phi(z\vert x)\vert \vert p_\gamma(z)]$$.
+E_{z \sim q}[\log p_\alpha(x\vert z)]-D_{KL}[q_\phi(z\vert x)\vert \vert p_\beta(z)]$$.
 
 ---
 
