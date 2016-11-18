@@ -32,14 +32,18 @@ VAE uses the following ELBO, $$E_{z \sim q}[\log p_\alpha(x\vert z)]-D_{KL}[q_\p
 VAEs use a feed-forward neural network, called the *inference network* for generating the parameters $$\phi$$ of the variational posterior and a *recognition network* for decoding the data. Using an inference network for generating variational distribution imposes a certain smoothness assumption over the data-points and hence instead of having a mean-filed type local parameters, the network allows sharing of global variational parameter. Training this network is problematic because by using MC for approximating the expectation in the above ELBO, discontinuity is introduced in the graph and hence back propagation is not possible. Back propagating through random sampler is a well studied problem and the way VAE solve it is by using the __reparametrization trick__/__Mat-trick__ which is applicable to any continuous distribution that has a __non-centered parametric form__. I do not want to get in detail of these tricks here as that would require a lot more space than I have, so I will finish this description of VAEs by saying that VAEs can be used as a __neural inference__ method for a large class of continuous latent state model where the prior over the latent variable has a __non-centered parametric form__. Recently, we also showed that VAEs can be used for __Dirichlet__ priors like in a topic model using __Laplace Approximation__. Details can be found [here](http://openreview.net/forum?id=BybtVK9lg). In future I will update this section for the more recent stuff such as,
 
 #### 1.1 Normalizing Flows and Beyond
+
 .
 #### 1.2 Component Collapsing in VAEs and Training Tricks
+
 .
 #### 1.3 Using VAEs to Infer LDA-type Topic Models
+
 <div class="roundedBorder">
 <h2 class="c"> We recently released the code for <a href="http://openreview.net/pdf?id=BybtVK9lg">Nueral Variational Inference for Topic Models</a> available <a href="https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models">here</a>. </h2>
 </div>
 .
+
 #### 1.4 Implementation
 
 While there are plenty of VAE implentations all over the web in almost every Deep Learning package I find the [this](https://jmetzen.github.io/2015-11-27/vae.html) `Tensorflow` implementation by Jan Hendrik Metzen quite intuitive and easy to follow. 
