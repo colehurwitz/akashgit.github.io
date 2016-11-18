@@ -36,6 +36,9 @@ VAEs use a feed-forward neural network, called the *inference network* for gener
 #### 1.2 Component Collapsing in VAEs and Training Tricks
 
 #### 1.3 Using VAEs to Infer LDA-type Topic Models
+<div class="roundedBorder">
+<h2 class="c"> We recently released the code for <a href="http://openreview.net/pdf?id=BybtVK9lg">Nueral Variational Inference for Topic Models</a> avilable <a href="https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models">here</a> </h2>.
+</div>
 
 ---
 
