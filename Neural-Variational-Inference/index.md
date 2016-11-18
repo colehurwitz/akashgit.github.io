@@ -8,7 +8,7 @@ For quite sometime now I've been working on neural inference methods that have b
 With that lets delve straight into our main topic, __Approximate Neural Inference__ or as we will refer to it throughout this text, __NI__. Simply put, variational inference (__VI__) is a deterministic method of carrying out approximate inference in probabilistic models when the posterior distribution over the variables of interest (or the latent state) is intractable. In order to do so, VI uses a tractable family of distributions to approximate the intractable posterior in an optimization procedure that usually minimizes the negative log-likelihood of the data that the model is trying to fit. Consider the following example,
 
 <div class="roundedBorder">
-<h2 class="c"> Update: <a href="http://homepages.inf.ed.ac.uk/imurray2/">Dr Iain Murray</a> has a nice self-contained stochastic variational inference demo in Matlab/Octave available <a href="http://www.inf.ed.ac.uk/teaching/courses/mlpr/2016/notes/svi_minimal.m">here</a> </h2>.
+<h2 class="c"> Update: <a href="http://homepages.inf.ed.ac.uk/imurray2/">Dr Iain Murray</a> has a nice self-contained stochastic variational inference demo in Matlab/Octave available <a href="http://www.inf.ed.ac.uk/teaching/courses/mlpr/2016/notes/svi_minimal.m">here</a>. Also check out <a href="http://people.seas.harvard.edu/~dduvenaud/papers/blackbox.pdf"> this paper</a> by <a href="https://www.cs.toronto.edu/~duvenaud/">David Duvenaud</a> and <a href="http://people.seas.harvard.edu/~rpa/">Ryan P. Adams</a> for a very short (5-lines) Python based example of blackbox stochastic variational inference.</h2>.
 </div>
 
 ### Example
