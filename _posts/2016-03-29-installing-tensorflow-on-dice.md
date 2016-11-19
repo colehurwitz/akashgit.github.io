@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Installing Tensorflow on Dice"
 date: 2016-03-29
 ---
