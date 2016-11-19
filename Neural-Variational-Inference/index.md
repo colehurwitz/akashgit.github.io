@@ -4,7 +4,7 @@ comments: true
 title: "Blackbox and Approximate Neural Inference"
 ---
 # Blackbox and Approximate (Variational) Neural Inference 
-For quite sometime now I've been working on neural inference methods that have become very popular recently. There is an abundance of resources on these methods and that is precisely why I decided to write a considerably terse post about the most prominent of such techniques. Since this is only an attempt to summarize the vast body of work being done in this field, I will try to provide links to more detailed (read: much better than mine) posts and paper for each of the methods. As mentioned earlier, this is only an attempt to summarize this fairly sophisticated field, please correct me via email if you find any mistakes in my description, of which I can promise there will be plenty to fix :) Lastly before starting, this is more of a *dynamic* post, meaning that I will keep updating the entries and adding details as I get time.
+For quite sometime now I've been working on neural inference methods that have become very popular recently. There is an abundance of resources on these methods and that is precisely why I decided to write a considerably terse post about the most prominent of such techniques. Since this is only an attempt to summarize the vast body of work being done in this field, I will try to provide links to more detailed (read: much better than mine) posts and paper for each of the methods. As mentioned earlier, this is only an attempt to summarize this fairly sophisticated field, please correct me via the comments section at the end of this page if you find any mistakes in my description, of which I can promise there will be plenty to fix :) Lastly before starting, this is more of a *dynamic* post, meaning that I will keep updating the entries and adding details as I get time.
 
 With that lets delve straight into our main topic, __Approximate Neural Inference__ or as we will refer to it throughout this text, __NI__. Simply put, variational inference (__VI__) is a deterministic method of carrying out approximate inference in probabilistic models when the posterior distribution over the variables of interest (or the latent state) is intractable. In order to do so, VI uses a tractable family of distributions to approximate the intractable posterior in an optimization procedure that usually minimizes the negative log-likelihood of the data that the model is trying to fit. Consider the following example,
 
@@ -19,7 +19,9 @@ Let $$p_\Theta(x)=\int_zp(x\vert z,\alpha)p(z\vert \beta)dz$$ be the likelihood 
 I think that is all that we need to know from traditional VI theory to proceed further. The only other thing that needs to be spelled out is the actual __ELBO__ that is optimized in the old methods can be written down in two equivalent ways as follows,
 
 $$\log p_\Theta(x)\geq
-\log p_\Theta(x)-D_{KL}[q_\phi(z\vert x)\vert \vert p_\theta(z\vert x)]=
+\log p_\Theta(x)-D_{KL}[q_\phi(z\vert x)\vert \vert p_\theta(z\vert x)]$$
+
+$$=
 E_{z \sim q}[\log p_\alpha(x\vert z)]-D_{KL}[q_\phi(z\vert x)\vert \vert p_\beta(z)]$$.
 
 ---
