@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 title: "Blackbox and Approximate Neural Inference"
 ---
 # Blackbox and Approximate (Variational) Neural Inference 
