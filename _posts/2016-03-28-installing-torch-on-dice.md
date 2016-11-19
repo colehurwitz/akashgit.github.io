@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Installing Torch on Dice"
 date: 2016-03-28
 ---
