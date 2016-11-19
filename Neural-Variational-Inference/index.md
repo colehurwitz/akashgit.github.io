@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: comment
 comments: true
 title: "Blackbox and Approximate Neural Inference"
 ---
