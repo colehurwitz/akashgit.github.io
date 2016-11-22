@@ -47,7 +47,7 @@ VAEs use a feed-forward neural network, called the *inference network* for gener
 
 #### 1.4 Implementation
 
-While there are plenty of VAE implentations all over the web in almost every Deep Learning package I find the [this](https://jmetzen.github.io/2015-11-27/vae.html) `Tensorflow` implementation by Jan Hendrik Metzen quite intuitive and easy to follow. 
+While there are plenty of VAE implentations all over the web in almost every Deep Learning package I find [this](https://jmetzen.github.io/2015-11-27/vae.html) `Tensorflow` implementation by Jan Hendrik Metzen quite intuitive and easy to follow. 
 
 
 ---
