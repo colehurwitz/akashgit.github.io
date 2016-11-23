@@ -19,3 +19,10 @@ $$f(A) + f(B) \geq f(A \cup B) + f(A \cap B)$$
 
 **Hamming Distance:**
 In information theory, the Hamming distance between two strings of equal length is the number of positions at which the corresponding symbols are different
+
+**Log Determinant of SPD Matrix**
+Usually in computation packages the determinant of the covariance matrix throws __NaNs__ . But it turns out that __log__ of the determinant might still be finite. Therefore,
+
+`L = tf.tf.cholesky(cov)`
+
+`log_det_cov = 2*reduce_sum(tf.log(tf.matrix_diag(L)))`
