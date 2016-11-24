@@ -36,7 +36,11 @@ VAEs use a feed-forward neural network, called the *inference network* for gener
 
 #### 1.1 Normalizing Flows and Beyond
 
+So what if your posterior is not a unimodal Gaussian distribution? This is the type of issue that Normalizing Flows and related methods are trying to resolve. The basic idea is fairly simple, lets assume that your complicated posterior is some complicated transformation of unimodel Gaussian. So Normalizing flows essentially uses special invertible functions (__such that the determinant of the Jacobian of their inverse is known__) to transform the unimodal Gaussian to approximate your complicated posterior well. More on this later, but for now note that there are several ways to go about using the same idea, including but not limited to __volume preserving transformations__, __invertible neural networks__, etc. 
+
 #### 1.2 Component Collapsing in VAEs and Training Tricks
+
+We are releasing an extended version of our ICLR paper to explain in point in further mathematical detail.
 
 #### 1.3 Using VAEs to Infer LDA-type Topic Models
 
