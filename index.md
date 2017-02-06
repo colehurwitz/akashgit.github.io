@@ -20,7 +20,7 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 
 ---
 
-## Our ICLR 2017 Submission:
+## New ICLR 2017 Paper:
 
 ---
 
