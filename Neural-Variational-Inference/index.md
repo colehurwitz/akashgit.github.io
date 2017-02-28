@@ -112,7 +112,7 @@ This ELBO can be optimized using a gradient based method. But the variance of th
 
 #### 3.1 Rao-Blackwellization
 
-Suppose we are interested in calculating the expectation of a function, for example the gradients with respect to $$\phi$$ as above. The idea behind Rao-Blackwellization is to replace this function with another function such that the expectation doesn't change but the variance reduces. It does so by using the conditional expectation of the function. 
+Suppose we are interested in calculating the expectation of a function, for example the gradients with respect to $$\lambda$$ as above. The idea behind Rao-Blackwellization is to replace this function with another function such that the expectation doesn't change but the variance reduces. It does so by using the conditional expectation of the function. 
 
 #### 3.2 Control Variates
 
