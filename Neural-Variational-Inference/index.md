@@ -70,17 +70,21 @@ $$\nabla_\Theta L(x) = E_{z \sim q}[\nabla \log p_\Theta(x, z)]$$ and
 
 $$\nabla_\phi L(x) = E_{z\sim q}[(\log p_\Theta(x, z) - \log q_\phi(z\vert x)). \nabla_\phi \log q_\phi(z\vert x)]$$.
 
-There is no problem with approximating $$\nabla_\Theta L(x)$$ with MC but the high variance in the MC approximation of $$\nabla_\phi L(x)$$ requires additional methods to train successfully. To this end, the authors proposed two black-box methods of variance reduction in the gradient estimates. 
+There is no problem with approximating $$\nabla_\Theta L(x)$$ with MC but the high variance in the MC approximation of $$\nabla_\phi L(x)$$ requires additional methods to train successfully. To this end, the authors proposed two black-box methods of variance reduction in the gradient estimates. $$(\log p_\Theta(x, z) - \log q_\phi(z\vert x))$$ is called the __learning signal__.
 
 #### 2.1 Centering the Learning Signal
 
-A one line description (I will expand this later) of this technique: The expectation in the learning signal remains invariant if a constant $$c$$ is subtracted from it. Therefore, a systematically calculated constant quantity $$C(x)$$ when subtracted from the learning signal can help bring the noise down in the gradients. 
+The reason that the gradient with respect to $$\phi$$ is written as an expectation (by clever use of log-derivative trick and moving differentiation operator in and out of summation) is to allow substracting from the learning signal, any quantity that does not depend on $$z$$. Since expectation in the learning signal remains invariant if a quantity $$c$$ is subtracted from it, therefore, a systematically calculated function of the data, $$C(x)$$ when subtracted from the learning signal can help bring the noise down in the gradients. 
 
 #### 2.2 Variance Normalization
 
-For the time being, I would only say that it is similar to carrying out __batch-normalization__. As above, I will expand this subsection over time.
+While centering the learning signal reduces the variance in the gradients, it does not suffice just by itself as the gradients tend to have shift drastically at times. Therefore, the variance of the learning signal is used to further normalize the gradients.
 
-Although it is designed to be a black-box method, NVIL also allows benefiting from the local structure of the model.
+<div class="roundedBorder">
+<h2 class="c"> Update: We have been recently exploring NVIL type methods to more fundamentally explain and resolve the cause of high variance without needing to change the gradients, which also allow faster training in the inference network. Manuscript in preparation. </h2>.
+</div>
+
+NVIL also allows benefiting from the local structure of the model.
 
 #### 2.3 Implementation
 
@@ -88,13 +92,11 @@ There are a few example implementation of this paper in [theano](https://github.
 
 ---
 
-`...to be continued...`
-
 ## 3. Blackbox Variational Inference
 
 ##### `Rajesh Ranganath, Sean Gerrish and David M. Blei, 2014`
 
-If I remember well, this is precursor to NVIL above. Essentially NVIL generalizes this method with an encoder to get variational parameters and therefore slightly different variance reduction techniques. The lowerbound is given by:
+If I remember well, this is precursor to the NVIL above. Essentially NVIL generalizes this method with an encoder to get variational parameters without needing to resort to the mean-field assumption and therefore uses different variance reduction techniques. The lowerbound for BVI is given by:
 
 $$L(\lambda)=E_{z \sim q_\lambda}[\log p(x, z) - \log q(z \vert \lambda)]$$
 
@@ -110,8 +112,11 @@ This ELBO can be optimized using a gradient based method. But the variance of th
 
 #### 3.1 Rao-Blackwellization
 
+Suppose we are interested in calculating the expectation of a function, for example the gradients with respect to $$\phi$$ as above. The idea behind Rao-Blackwellization is to replace this function with another function such that the expectition doesn't change but the variance reduces. It does so by using the conditional expectation of the function. 
+
 #### 3.2 Control Variates
 
+This is very similar to the centering and the variance normalization as in the above case of NVIL, so we do not discuss it here.
 
 ## 4. Generative Adversarial Network (GAN)
 
