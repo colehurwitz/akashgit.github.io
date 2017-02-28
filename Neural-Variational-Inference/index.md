@@ -81,7 +81,7 @@ The reason that the gradient with respect to $$\phi$$ is written as an expectati
 While centering the learning signal reduces the variance in the gradients, it does not suffice just by itself as the gradients tend to have shift drastically at times. Therefore, the variance of the learning signal is used to further normalize the gradients.
 
 <div class="roundedBorder">
-<h2 class="c"> Update: We have been recently exploring NVIL type methods to more fundamentally explain and resolve the cause of high variance without needing to change the gradients, which also allow faster training in the inference network. Manuscript in preparation. </h2>.
+<h2 class="c"> Update: We have been recently exploring NVIL type methods to more fundamentally explain and resolve the cause of high variance without needing to change the gradients, which also allows faster training in the inference network. Manuscript in preparation. </h2>.
 </div>
 
 NVIL also allows benefiting from the local structure of the model.
@@ -112,14 +112,26 @@ This ELBO can be optimized using a gradient based method. But the variance of th
 
 #### 3.1 Rao-Blackwellization
 
-Suppose we are interested in calculating the expectation of a function, for example the gradients with respect to $$\phi$$ as above. The idea behind Rao-Blackwellization is to replace this function with another function such that the expectition doesn't change but the variance reduces. It does so by using the conditional expectation of the function. 
+Suppose we are interested in calculating the expectation of a function, for example the gradients with respect to $$\phi$$ as above. The idea behind Rao-Blackwellization is to replace this function with another function such that the expectation doesn't change but the variance reduces. It does so by using the conditional expectation of the function. 
 
 #### 3.2 Control Variates
 
 This is very similar to the centering and the variance normalization as in the above case of NVIL, so we do not discuss it here.
 
+---
+
 ## 4. Generative Adversarial Network (GAN)
+
+I initially wanted to provide a very short description of GANs here although they are generally not explained under the *variational inference*-type framework. But given their popularity I think it is only fair to write a separate post on GANs. If you are interested in the divergence minimization formulation of GANs have a look at the $$f$$-GAN [paper](https://arxiv.org/abs/1606.00709) 
+
+---
 
 ## 5. ADVI
 
+Automatic Differentiation Variational Inference generalizes the VAE framework by providing a library of invertible mappings from the distribution (of-interest) domain $$\mathbb{D}^k$$ to $$\mathbb{R}^k$$; which can be used to transform the prior density to build a Gaussian approximation to the posterior. This allows for using the re-parameterization trick for inference using VAE. Since this mappings are invertible the Gaussian approximations can be transformed back to the required domain.
 
+#### 5.1 Implementation
+
+There is a very nice implementation of ADVI in [Stan](http://mc-stan.org/) . A reasonably good implementation is available in [PyMC3](https://pymc-devs.github.io/pymc3/).
+
+---
