@@ -4,27 +4,13 @@ title: Research
 ---
 
 
-## 1. [Neural Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
+## 1. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
 
 > #### Authors: `Akash Srivastava and Charles Sutton`
 
 > #### Abstract
 
->> Topic models are one of the most popular methods for learning representations 
-of text, but a major challenge is that any change to the topic model requires 
-mathematically deriving a new inference algorithm. A promising approach to address
-this problem is neural variational inference (NVI), but they have proven difficult
-to apply to topic models in practice. We present what is to our knowledge the first
-effective neural variational inference method for latent Dirichlet allocation (LDA),
-tackling the problems caused for NVI by the Dirichlet prior and by component collapsing.
-We find that NVI matches traditional methods in accuracy with much better inference
-time. Indeed, because of the inference network, we find that it is unnecessary to pay
-the computational cost of running variational optimization on test data. Because NVI
-is black box, it is readily applied to new topic models. As a dramatic illustration 
-of this, we present a new topic model called ProdLDA, that replaces the mixture model
-in LDA with a product of experts. By changing only one line of code from LDA, we find
-that ProdLDA yields much more interpretable topics, even if LDA is trained via collapsed
-Gibbs sampling.
+>> Topic models are one of the most popular methods for learning representations of text, but a major challenge is that any change to the topic model requires mathematically deriving a new inference algorithm. A promising approach to address this problem is autoencoding variational Bayes (AEVB), but it has proven diffi- cult to apply to topic models in practice. We present what is to our knowledge the first effective AEVB based inference method for latent Dirichlet allocation (LDA), which we call Autoencoded Variational Inference For Topic Model (AVITM). This model tackles the problems caused for AEVB by the Dirichlet prior and by component collapsing. We find that AVITM matches traditional methods in accuracy with much better inference time. Indeed, because of the inference network, we find that it is unnecessary to pay the computational cost of running variational optimization on test data. Because AVITM is black box, it is readily applied to new topic models. As a dramatic illustration of this, we present a new topic model called ProdLDA, that replaces the mixture model in LDA with a product of experts. By changing only one line of code from LDA, we find that ProdLDA yields much more interpretable topics, even if LDA is trained via collapsed Gibbs sampling.
 
 ---
 
