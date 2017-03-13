@@ -21,3 +21,6 @@ As shown in figure 1, (very loosely speaking) softmax assigns very limited subse
 ### De-constructing Softmax: General class of simplex projection methods.
 
 For the context of this post, it would help to think of the softmax function as a method for unit-simplex projection. When it comes to simplex projection view of the softmax, what has always intrigued me is the arbitrary choice of using the number $$e$$. So let's de-construct the softmax function and see if there are other way of putting things back together such that they still sum to one without the saturation issue of the softmax function. 
+
+---
+more tomorrow...
