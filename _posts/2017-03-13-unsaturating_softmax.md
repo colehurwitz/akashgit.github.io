@@ -6,6 +6,12 @@ date: 2017-03-13
 
 ## Unsaturating Softmax
 
-The softmax function is a multi-dimensional extension to the sigmoid function that projects an incoming vector to a unit simplex. Therefore it is quite frequenly used in logistic regression (classification) tasks to represent a multinomial distribution over the data classes.
+The softmax function is a multi-dimensional extension to the sigmoid function that projects an incoming vector to a unit simplex. Therefore it is quite frequenly used in logistic regression (classification) tasks to represent the multinomial distribution over the data classes.
 
-Mathematically, it is represented as $$\sigma(x_i)=\frac{e^{x_i}}{\sum_j e^{x_j}}$$. 
+Mathematically, it is represented as $$\sigma(x_i)=\frac{e^{x_i}}{\sum_j e^{x_j}}$$ and in the $$2$$-D case looks something like the figure below.
+
+![softmax plot](/media/softmax.png)
+
+--
+
+
