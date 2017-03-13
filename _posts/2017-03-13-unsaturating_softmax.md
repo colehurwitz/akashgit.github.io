@@ -12,6 +12,7 @@ Mathematically, it is represented as $$\sigma(x_i)=\frac{e^{x_i}}{\sum_j e^{x_j}
 
 ![softmax plot](/media/softmax.png)
 Figure 1: Notice the flat surfaces (as $$y_1 \to 0$$ and $$y_1 \to 1$$ ).
+
 ---
 
 ## Saturation in Softmax
