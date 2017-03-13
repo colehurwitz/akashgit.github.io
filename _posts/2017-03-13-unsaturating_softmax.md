@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unsaturating Softmax"
-date: 2016-03-13
+date: 2017-03-13
 ---
 
 ## Unsaturating Softmax
