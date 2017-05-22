@@ -20,11 +20,38 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 
 ---
 
+## New Paper:
+
+---
+
+## 1. [VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning](/veegan_fh.pdf)
+
+> #### Authors `Akash Srivastava, Lazar Valkov, Chris Russell, Michael Gutmann and Charles Sutton`
+
+#### Abstract
+
+>> Deep generative models provide powerful tools for distributions over complicated
+manifolds, such as those of natural images. But many of these methods, including
+generative adversarial networks (GANs), can be difficult to train, in part because
+they are prone to mode collapse, which means that they characterize only a few
+modes of the true distribution. To address this, we introduce VEEGAN, which
+features a reconstructor network, reversing the action of the generator by mapping
+from data to noise. Our training objective retains the original asymptotic consistency
+guarantee of GANs, and can be interpreted as a novel autoencoder loss over
+the noise. In sharp contrast to a traditional autoencoder over data points, VEEGAN
+does not require specifying a loss function over the data, but rather only over the
+representations, which are standard normal by assumption. On an extensive set of
+synthetic and real world image datasets, VEEGAN indeed resists mode collapsing
+to a far greater extent than other recent GAN variants, and produces more realistic
+samples.
+
+---
+
 ## New ICLR 2017 Paper: *Title Updated*
 
 ---
 
-## 1. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
+## 2. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
 
 > #### Authors `Akash Srivastava and Charles Sutton`
 
