@@ -3,8 +3,30 @@ layout: default
 title: Research
 ---
 
+## 1. [VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning](/veegan_fh.pdf)
 
-## 1. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
+> #### Authors `Akash Srivastava, Lazar Valkov, Chris Russell, Michael Gutmann and Charles Sutton`
+
+#### Abstract
+
+>> Deep generative models provide powerful tools for distributions over complicated
+manifolds, such as those of natural images. But many of these methods, including
+generative adversarial networks (GANs), can be difficult to train, in part because
+they are prone to mode collapse, which means that they characterize only a few
+modes of the true distribution. To address this, we introduce VEEGAN, which
+features a reconstructor network, reversing the action of the generator by mapping
+from data to noise. Our training objective retains the original asymptotic consistency
+guarantee of GANs, and can be interpreted as a novel autoencoder loss over
+the noise. In sharp contrast to a traditional autoencoder over data points, VEEGAN
+does not require specifying a loss function over the data, but rather only over the
+representations, which are standard normal by assumption. On an extensive set of
+synthetic and real world image datasets, VEEGAN indeed resists mode collapsing
+to a far greater extent than other recent GAN variants, and produces more realistic
+samples.
+
+---
+
+## 2. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
 
 > #### Authors: `Akash Srivastava and Charles Sutton`
 
@@ -14,7 +36,7 @@ title: Research
 
 ---
 
-## 2. [Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation](https://arxiv.org/abs/1602.06886)
+## 3. [Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation](https://arxiv.org/abs/1602.06886)
 
 > #### Authors: `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
 
@@ -36,7 +58,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 ---
 
-## 3. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection](http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
+## 4. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection](http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
 
 > #### Author: `Akash Srivastava`
 
