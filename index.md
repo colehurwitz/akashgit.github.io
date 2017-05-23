@@ -51,7 +51,7 @@ samples.
 
 ---
 
-## 2. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://github.com/akashgit/Neural-Variational-Inference-for-Topic-Models)
+## 2. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://akashgit.github.io/autoencoding_vi_for_topic_models/)
 
 > #### Authors `Akash Srivastava and Charles Sutton`
 
