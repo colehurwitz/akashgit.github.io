@@ -24,7 +24,7 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 
 ---
 
-## 1. [VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning](/veegan_fh.pdf)
+## 1. [VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning](https://arxiv.org/abs/1705.07761)
 
 > #### Authors `Akash Srivastava, Lazar Valkov, Chris Russell, Michael Gutmann and Charles Sutton`
 
