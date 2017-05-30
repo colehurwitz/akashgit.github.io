@@ -16,7 +16,7 @@ title: Akash Srivastava
 
 #   Akash Srivastava
 
-I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum), University of Edinburgh. Currently, I'm working with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) on [autoencoding variational inference](http://akashgit.github.io/Neural-Variational-Inference/) and [interactive machine learning](https://arxiv.org/abs/1602.06886v1) primarily for unsupervised models.
+I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum), University of Edinburgh. Currently, I'm working with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) and [Dr Michael U. Gutmann](https://sites.google.com/site/michaelgutmann/) on variational inference deep generative models.
 
 ---
 
@@ -26,7 +26,7 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 
 ## 1. [VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning](https://arxiv.org/abs/1705.07761)
 
-> #### Authors `Akash Srivastava, Lazar Valkov, Chris Russell, Michael Gutmann and Charles Sutton`
+> #### Authors `Akash Srivastava, Lazar Valkov, Chris Russell, Michael U. Gutmann and Charles Sutton`
 
 #### Abstract
 
