@@ -20,7 +20,7 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 
 ---
 
-## New Paper:
+## New NIPS 2017 Paper:
 
 ---
 
@@ -47,7 +47,7 @@ samples.
 
 ---
 
-## New ICLR 2017 Paper: *Title Updated*
+## ICLR 2017 Paper
 
 ---
 
