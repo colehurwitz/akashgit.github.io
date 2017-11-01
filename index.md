@@ -18,8 +18,6 @@ title: Akash Srivastava
 
 I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum), University of Edinburgh. I work with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) and [Dr Michael U. Gutmann](https://sites.google.com/site/michaelgutmann/) on variational inference deep generative models.
 
-**Currently on internship in Microsoft Research, Cambridge.**
-
 ---
 
 ## New NIPS 2017 Paper:
