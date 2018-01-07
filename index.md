@@ -20,24 +20,8 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 
 ---
 
-## New NIPS 2017 Paper:
-
----
-
-## 1. [VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning](https://akashgit.github.io/VEEGAN/)
-
-> #### Authors `Akash Srivastava, Lazar Valkov, Chris Russell, Michael U. Gutmann and Charles Sutton`
-
-
----
-
-## ICLR 2017 Paper
-
----
-
-## 2. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://akashgit.github.io/autoencoding_vi_for_topic_models/)
-
-> #### Authors `Akash Srivastava and Charles Sutton`
+# News:
+- I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary as a visiting researcher.
 
 
 ---
