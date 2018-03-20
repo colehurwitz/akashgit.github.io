@@ -127,12 +127,12 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </p>
 
 <p>
-   [ <a href="javascript:toggle('abspam2018', 'abs_link_pam2018', 'abstract')" id="abs_link_pam2018">abstract</a>
+   [ <a href="javascript:toggle('absvadam2018', 'abs_link_vadam2018', 'abstract')" id="abs_link_vadam2018">abstract</a>
    ]
 </p>
 
-<div id="divpam2018"></div>
-<div style="display:none;" id="abspam2018"><div class="abstract">Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.</div></div>
+<div id="divvadam2018"></div>
+<div style="display:none;" id="absvadam2018"><div class="abstract">Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.</div></div>
 
 <p>
 <a href="http://arxiv.org/abs/1602.06886"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
@@ -141,12 +141,12 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </p>
 
 <p>
-   [ <a href="javascript:toggle('abspam2018', 'abs_link_pam2018', 'abstract')" id="abs_link_pam2018">abstract</a>
+   [ <a href="javascript:toggle('absns2018', 'abs_link_ns2018', 'abstract')" id="abs_link_ns2018">abstract</a>
    ]
 </p>
 
-<div id="divpam2018"></div>
-<div style="display:none;" id="abspam2018"><div class="abstract">We present a neurosymbolic approach to the lifelong learning
+<div id="divns2018"></div>
+<div style="display:none;" id="absns2018"><div class="abstract">We present a neurosymbolic approach to the lifelong learning
         of algorithmic tasks that mix perception and procedural
         reasoning. Reusing high-level concepts across domains and learning
         complex procedures are two key challenges in lifelong learning. We
@@ -178,12 +178,12 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 <p>
    [ <a href="http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf">.pdf</a>
-	| <a href="javascript:toggle('abspam2018', 'abs_link_pam2018', 'abstract')" id="abs_link_pam2018">abstract</a>
+	| <a href="javascript:toggle('absfsd2018', 'abs_link_fsd2018', 'abstract')" id="abs_link_fsd2018">abstract</a>
    ]
 </p>
 
-<div id="divpam2018"></div>
-<div style="display:none;" id="abspam2018"><div class="abstract">First Story Detection or FSD is one of the 5 tasks defined under the Topic Detection andTracking program with the purpose to identify the onset of a previously unseen event in
+<div id="divfsd2018"></div>
+<div style="display:none;" id="absfsd2018"><div class="abstract">First Story Detection or FSD is one of the 5 tasks defined under the Topic Detection andTracking program with the purpose to identify the onset of a previously unseen event in
 a stream of news stories. In this work, we report on the development and evaluation of
 a feature-pivoted approach to this task. Our method uses the output of a burst detection
 algorithm to modulate the traditional document clustering based approach to FSD.
