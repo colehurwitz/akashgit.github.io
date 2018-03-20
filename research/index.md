@@ -58,7 +58,60 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 ---
 
-## 4. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection](http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
+## 4. Variational Inference In Pachinko Allocation Machines
+
+> #### Authors: `Akash Srivastava and Charles Sutton`
+
+> #### Abstract
+
+>> The Pachinko Allocation Machine (PAM) is a deep topic model that allows representing rich correlation structures among topics by a directed acyclic graph over topics. Because of the flexibility of the model, however, approximate inference is very difficult. Perhaps for this reason, only a small number of potential PAM architectures have been explored in the literature. In this paper we present an efficient and flexible amortized variational inference method for PAM, using a deep inference network to parameterize the approximate posterior distribution in a manner similar to the variational autoencoder. Our inference method produces more coherent topics than state-of-art inference methods for PAM while being an order of magnitude faster, which allows exploration of a wider range of PAM architectures than have previously been studied.
+
+---
+
+## 5. Vadam: Fast and Scalable Variational Inference by Perturbing Adam
+
+> #### Authors: `Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Yarin Gal, Akash Srivastava`
+
+> #### Abstract
+
+>> Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.
+
+---
+
+## 6. Synthesis of Differentiable Functional Programs for Lifelong Learning
+
+> #### Authors: `Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton`
+
+> #### Abstract
+
+>> We present a {\em neurosymbolic approach} to the lifelong learning
+        of algorithmic tasks that mix perception and procedural
+        reasoning. Reusing high-level concepts across domains and learning
+        complex procedures are two key challenges in lifelong learning. We
+        show that a combination of gradient-based learning and {symbolic
+        program synthesis} can be a more effective response to these
+        challenges than purely neural methods. Concretely, our approach,
+        called \system, represents neural networks as strongly typed,
+        end-to-end differentiable functional programs that use 
+        symbolic higher-order combinators to compose a library of neural
+        functions. 
+
+Our learning algorithm consists of: (1) a program synthesizer
+        that performs a type-directed search over programs in this language,
+        and decides
+        on the library functions that should be reused and the
+        architectures that should be used to combine them; and (2) a neural
+        module that trains synthesized programs using stochastic gradient
+        descent. We evaluate our approach on three algorithmic tasks.
+        Our experiments show that our type-directed search technique
+        is able to significantly prune the search space of programs,
+        and that the overall approach transfers high-level concepts
+        more effectively than monolithic neural networks as well as
+        traditional transfer learning.
+
+---
+
+## 7. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection](http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
 
 > #### Author: `Akash Srivastava`
 
