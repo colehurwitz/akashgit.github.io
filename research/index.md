@@ -173,8 +173,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </p>
 
 <p>
-   [ <a href="http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf">.pdf</a>
-	| <a href="javascript:toggle('absfsd2018', 'abs_link_fsd2018', 'abstract')" id="abs_link_fsd2018">abstract</a>
+   [ <a href="javascript:toggle('absfsd2018', 'abs_link_fsd2018', 'abstract')" id="abs_link_fsd2018">abstract</a>
    ]
 </p>
 
