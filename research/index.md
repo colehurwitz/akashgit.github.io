@@ -84,14 +84,14 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 > #### Abstract
 
->> We present a {\em neurosymbolic approach} to the lifelong learning
+>> We present a neurosymbolic approach to the lifelong learning
         of algorithmic tasks that mix perception and procedural
         reasoning. Reusing high-level concepts across domains and learning
         complex procedures are two key challenges in lifelong learning. We
         show that a combination of gradient-based learning and {symbolic
         program synthesis} can be a more effective response to these
         challenges than purely neural methods. Concretely, our approach,
-        called \system, represents neural networks as strongly typed,
+        called Houdini, represents neural networks as strongly typed,
         end-to-end differentiable functional programs that use 
         symbolic higher-order combinators to compose a library of neural
         functions. Our learning algorithm consists of: (1) a program synthesizer
