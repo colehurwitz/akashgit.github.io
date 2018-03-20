@@ -12,6 +12,7 @@ title: Research
    [<a href="publications/avitm.pdf">.pdf</a>
 	| <a href="https://arxiv.org/abs/1703.01488">arXiv</a>
 	| <a href="javascript:toggle('bibsrivastava17lda', 'bib_link_srivastava17lda', 'bib')"  id="bib_link_srivastava17lda">bib</a>
+	| <a href="javascript:toggle('abssrivastava17lda', 'abs_link_srivastava17lda', 'abstract')" id="abs_link_srivastava17lda">abstract</a>
 	| <a href="https://openreview.net/forum?id=BybtVK9lg">discussion</a>
 	| <a href="https://github.com/akashgit/autoencoding_vi_for_topic_models">source code</a>
    
@@ -21,7 +22,7 @@ title: Research
 
 
 <div id="divsrivastava17lda"></div>
-<div style="display:none;" id="abssrivastava17lda"><div class="abstract"></div></div>
+<div style="display:none;" id="abssrivastava17lda"><div class="abstract">Topic models are one of the most popular methods for learning representations of text, but a major challenge is that any change to the topic model requires mathematically deriving a new inference algorithm. A promising approach to address this problem is autoencoding variational Bayes (AEVB), but it has proven diffi- cult to apply to topic models in practice. We present what is to our knowledge the first effective AEVB based inference method for latent Dirichlet allocation (LDA), which we call Autoencoded Variational Inference For Topic Model (AVITM). This model tackles the problems caused for AEVB by the Dirichlet prior and by component collapsing. We find that AVITM matches traditional methods in accuracy with much better inference time. Indeed, because of the inference network, we find that it is unnecessary to pay the computational cost of running variational optimization on test data. Because AVITM is black box, it is readily applied to new topic models. As a dramatic illustration of this, we present a new topic model called ProdLDA, that replaces the mixture model in LDA with a product of experts. By changing only one line of code from LDA, we find that ProdLDA yields much more interpretable topics, even if LDA is trained via collapsed Gibbs sampling.</div></div>
 
 <div style="display:none;" id="bibsrivastava17lda"><pre class="bibtex">@inproceedings{srivastava17lda,
   author = {Srivastava, Akash and Sutton, Charles},
@@ -63,7 +64,44 @@ title: Research
 }
 </pre></div>
 
+<p>
+<a href="http://arxiv.org/abs/1602.06886"><b>Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation</b></a>.&nbsp;Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton.
+	In <i>Workshop on Human Interpretability in Machine Learning Workshop on Human Interpretability in Machine Learning (co-located with ICML)</i>.  2016.
 
+</p>
+
+<p>
+   [ <a href="http://arxiv.org/abs/1602.06886">.pdf</a>
+	| <a href="javascript:toggle('bibarxiv:tinder2016', 'bib_link_arxiv:tinder2016', 'bib')"  id="bib_link_arxiv:tinder2016">bib</a>
+	| <a href="javascript:toggle('absarxiv:tinder2016', 'absarxiv:tinder2016', 'abstract')" id="aabsarxiv:tinder2016">abstract</a>
+   ]
+</p>
+
+
+
+<div id="divarxiv:tinder2016"></div>
+<div style="display:none;" id="absarxiv:tinder2016"><div class="abstract">A good clustering can help a data analyst to explore and understand a data set, 
+but what constitutes a good clustering may depend on domain-specific and application
+ specific criteria. These criteria can be difficult to formalize, even when it is easy 
+for an analyst to know a good clustering when she sees one. We present a new approach 
+to interactive clustering for data exploration, called TINDER, based on a particularly simple
+feedback mechanism, in which an analyst can choose to reject individual clusters and 
+request new ones. The new clusters should be different from previously rejected clusters
+while still fitting the data well. We formalize this interaction in a novel Bayesian prior
+elicitation framework. In each iteration, the prior is adapted to account for all the 
+previous feedback, and a new clustering is then produced from the posterior distribution.
+To achieve the computational efficiency necessary for an interactive setting, we propose 
+an incremental optimization method over data minibatches using Lagrangian relaxation. 
+Experiments demonstrate that TINDER can produce accurate and diverse clusterings.</div></div>
+
+<div style="display:none;" id="bibarxiv:tinder2016"><pre class="bibtex">@inproceedings{arxiv:tinder2016,
+  author = {Srivastava, Akash and Zou, James and Adams, Ryan P. and Sutton, Charles},
+  booktitle = {Workshop on Human Interpretability in Machine Learning Workshop on Human Interpretability in Machine Learning (co-located with ICML)},
+  journal = {ArXiv e-prints},
+  title = {Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation},
+  year = {2016}
+}
+</pre></div>
 
 
 ---
