@@ -108,8 +108,6 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 <p>
 <a href="http://arxiv.org/abs/1602.06886"><b>Variational Inference In Pachinko Allocation Machines</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
-	Pre-print Avaialble.
-
 </p>
 
 <p>
@@ -123,8 +121,6 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 <p>
 <a href="http://arxiv.org/abs/1602.06886"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Yarin Gal, Akash Srivastava.
-	Pre-print Avaialble.
-
 </p>
 
 <p>
@@ -137,8 +133,6 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 <p>
 <a href="http://arxiv.org/abs/1602.06886"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
-	Pre-print Avaialble.
-
 </p>
 
 <p>
