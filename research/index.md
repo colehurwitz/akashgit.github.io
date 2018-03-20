@@ -3,48 +3,19 @@ layout: default
 title: Research
 ---
 
-<li class="bibitem">
-
-
-
-
-
+<li>
 <p>
-
-
-
-<a href="publications/avitm.pdf"><b>Autoencoding Variational Inference for Topic Models</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
-	In <i>International Conference on Learning Representations (ICLR)</i>.  2017.
-
-
-
-
-
+<a href="publications/avitm.pdf"><b>Autoencoding Variational Inference for Topic Models</b></a>.&nbsp;Akash Srivastava and Charles Sutton. In <i>International Conference on Learning Representations (ICLR)</i>.  2017.
 </p>
 
-
-
-
 <p>
-   [
-  
-     <a href="publications/avitm.pdf">.pdf</a>
-		  | 
-		 <a href="https://arxiv.org/abs/1703.01488">arXiv</a>
-  
-  
-     | <a href="javascript:toggle('bibsrivastava17lda', 'bib_link_srivastava17lda', 'bib')"  id="bib_link_srivastava17lda">bib</a>
-     
+   [<a href="publications/avitm.pdf">.pdf</a>
+	| <a href="https://arxiv.org/abs/1703.01488">arXiv</a>
+	| <a href="javascript:toggle('bibsrivastava17lda', 'bib_link_srivastava17lda', 'bib')"  id="bib_link_srivastava17lda">bib</a>
+	| <a href="https://openreview.net/forum?id=BybtVK9lg">discussion</a>
+	| <a href="https://github.com/akashgit/autoencoding_vi_for_topic_models">source code</a>
    
-   
-        | <a href="https://openreview.net/forum?id=BybtVK9lg">discussion</a>
-   
-   
-        | <a href="https://github.com/akashgit/autoencoding_vi_for_topic_models">source code</a>
-   
-	 
-	 
-   ]
+ ]
 </p>
 
 
@@ -60,49 +31,21 @@ title: Research
 }
 </pre></div>
 
-
 </li>
 	         
-                   <li class="bibitem">
-
-
-
-
+<li class="bibitem">
 
 <p>
-
-
-
 <a href="https://arxiv.org/abs/1705.07761"><b>VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning</b></a>.&nbsp;Akash Srivastava, Lazar Valkov, Chris Russell, Michael Gutmann and Charles Sutton.
 	In <i>Advances in Neural Information Processing Systems (NIPS)</i>.  2017.
 
-
-
-
-
 </p>
 
-
-
-
 <p>
-   [
-  
-     <a href="https://arxiv.org/abs/1705.07761">.pdf</a>
-		 
-		 
-  
-  
-     | <a href="javascript:toggle('bibsrivastava17veegan', 'bib_link_srivastava17veegan', 'bib')"  id="bib_link_srivastava17veegan">bib</a>
-     
-       | <a href="javascript:toggle('abssrivastava17veegan', 'abs_link_srivastava17veegan', 'abstract')" id="abs_link_srivastava17veegan">abstract</a>
-     
-   
-   
-   
-	 
-	 
-        | <a href="https://akashgit.github.io/VEEGAN/">code and data</a>
+   [ <a href="https://arxiv.org/abs/1705.07761">.pdf</a>
+	| <a href="javascript:toggle('bibsrivastava17veegan', 'bib_link_srivastava17veegan', 'bib')"  id="bib_link_srivastava17veegan">bib</a>
+	| <a href="javascript:toggle('abssrivastava17veegan', 'abs_link_srivastava17veegan', 'abstract')" id="abs_link_srivastava17veegan">abstract</a>
+	| <a href="https://akashgit.github.io/VEEGAN/">code and data</a>
    
    ]
 </p>
