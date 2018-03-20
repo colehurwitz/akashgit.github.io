@@ -94,12 +94,9 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
         called \system, represents neural networks as strongly typed,
         end-to-end differentiable functional programs that use 
         symbolic higher-order combinators to compose a library of neural
-        functions. 
-
-Our learning algorithm consists of: (1) a program synthesizer
+        functions. Our learning algorithm consists of: (1) a program synthesizer
         that performs a type-directed search over programs in this language,
-        and decides
-        on the library functions that should be reused and the
+        and decides on the library functions that should be reused and the
         architectures that should be used to combine them; and (2) a neural
         module that trains synthesized programs using stochastic gradient
         descent. We evaluate our approach on three algorithmic tasks.
