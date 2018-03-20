@@ -3,14 +3,13 @@ layout: default
 title: Research
 ---
 
-
+### Publications
 <p>
 <a href="publications/avitm.pdf"><b>Autoencoding Variational Inference for Topic Models</b></a>.&nbsp;Akash Srivastava and Charles Sutton. In <i>International Conference on Learning Representations (ICLR)</i>.  2017.
 </p>
 
 <p>
-   [<a href="publications/avitm.pdf">.pdf</a>
-	| <a href="https://arxiv.org/abs/1703.01488">arXiv</a>
+   [<a href="https://arxiv.org/abs/1703.01488">arXiv</a>
 	| <a href="javascript:toggle('bibsrivastava17lda', 'bib_link_srivastava17lda', 'bib')"  id="bib_link_srivastava17lda">bib</a>
 	| <a href="javascript:toggle('abssrivastava17lda', 'abs_link_srivastava17lda', 'abstract')" id="abs_link_srivastava17lda">abstract</a>
 	| <a href="https://openreview.net/forum?id=BybtVK9lg">discussion</a>
@@ -104,6 +103,8 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </pre></div>
 
 ---
+### Preprints
+
 
 <p>
 <a href="http://arxiv.org/abs/1602.06886"><b>Variational Inference In Pachinko Allocation Machines</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
@@ -169,7 +170,8 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
         traditional transfer learning.</div></div>
 	
 	
-
+---
+### Thesis
 <p>
 <a href="http://arxiv.org/abs/1602.06886"><b>Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection</b></a>.&nbsp;Akash Srivastava.
 	MSc Thesis.
