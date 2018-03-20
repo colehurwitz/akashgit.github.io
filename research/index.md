@@ -3,7 +3,7 @@ layout: default
 title: Research
 ---
 
-<li>
+
 <p>
 <a href="publications/avitm.pdf"><b>Autoencoding Variational Inference for Topic Models</b></a>.&nbsp;Akash Srivastava and Charles Sutton. In <i>International Conference on Learning Representations (ICLR)</i>.  2017.
 </p>
@@ -31,9 +31,9 @@ title: Research
 }
 </pre></div>
 
-</li>
+
 	         
-<li class="bibitem">
+
 
 <p>
 <a href="https://arxiv.org/abs/1705.07761"><b>VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning</b></a>.&nbsp;Akash Srivastava, Lazar Valkov, Chris Russell, Michael Gutmann and Charles Sutton.
@@ -64,7 +64,7 @@ title: Research
 </pre></div>
 
 
-</li>
+
 
 ---
 
