@@ -3,7 +3,86 @@ layout: default
 title: Research
 ---
 
-## 1. [VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning](https://arxiv.org/abs/1705.07761)
+<li class="bibitem">
+
+
+
+
+
+<p>
+
+
+
+<a href="publications/avitm.pdf"><b>Autoencoding Variational Inference for Topic Models</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
+	In <i>International Conference on Learning Representations (ICLR)</i>.  2017.
+
+
+
+
+
+</p>
+
+
+
+
+<p>
+   [
+  
+     <a href="publications/avitm.pdf">.pdf</a>
+		  | 
+		 <a href="https://arxiv.org/abs/1703.01488">arXiv</a>
+  
+  
+     | <a href="javascript:toggle('bibsrivastava17lda', 'bib_link_srivastava17lda', 'bib')"  id="bib_link_srivastava17lda">bib</a>
+     
+   
+   
+        | <a href="https://openreview.net/forum?id=BybtVK9lg">discussion</a>
+   
+   
+        | <a href="https://github.com/akashgit/autoencoding_vi_for_topic_models">source code</a>
+   
+	 
+	 
+   ]
+</p>
+
+
+
+<div id="divsrivastava17lda"></div>
+<div style="display:none;" id="abssrivastava17lda"><div class="abstract"></div></div>
+
+<div style="display:none;" id="bibsrivastava17lda"><pre class="bibtex">@inproceedings{srivastava17lda,
+  author = {Srivastava, Akash and Sutton, Charles},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  title = {Autoencoding Variational Inference for Topic Models},
+  year = {2017}
+}
+</pre></div>
+
+
+</li>
+	         
+                   <li class="bibitem">
+
+
+
+
+
+<p>
+
+
+
+<a href="https://arxiv.org/abs/1705.07761"><b>VEEGAN: Reducing Mode Collapse in GANs using Implicit Variational Learning</b></a>.&nbsp;Akash Srivastava, Lazar Valkov, Chris Russell, Michael Gutmann and Charles Sutton.
+	In <i>Advances in Neural Information Processing Systems (NIPS)</i>.  2017.
+
+
+
+
+
+</p>
+
+
 
 
 <p>
@@ -41,34 +120,8 @@ title: Research
 }
 </pre></div>
 
-> #### Authors `Akash Srivastava, Lazar Valkov, Chris Russell, Michael Gutmann and Charles Sutton`
 
-#### Abstract
-
->> Deep generative models provide powerful tools for distributions over complicated
-manifolds, such as those of natural images. But many of these methods, including
-generative adversarial networks (GANs), can be difficult to train, in part because
-they are prone to mode collapse, which means that they characterize only a few
-modes of the true distribution. To address this, we introduce VEEGAN, which
-features a reconstructor network, reversing the action of the generator by mapping
-from data to noise. Our training objective retains the original asymptotic consistency
-guarantee of GANs, and can be interpreted as a novel autoencoder loss over
-the noise. In sharp contrast to a traditional autoencoder over data points, VEEGAN
-does not require specifying a loss function over the data, but rather only over the
-representations, which are standard normal by assumption. On an extensive set of
-synthetic and real world image datasets, VEEGAN indeed resists mode collapsing
-to a far greater extent than other recent GAN variants, and produces more realistic
-samples.
-
----
-
-## 2. [Autoencoding Variational Inference For Topic Models](http://openreview.net/forum?id=BybtVK9lg) || [Code](https://akashgit.github.io/autoencoding_vi_for_topic_models/)
-
-> #### Authors: `Akash Srivastava and Charles Sutton`
-
-> #### Abstract
-
->> Topic models are one of the most popular methods for learning representations of text, but a major challenge is that any change to the topic model requires mathematically deriving a new inference algorithm. A promising approach to address this problem is autoencoding variational Bayes (AEVB), but it has proven diffi- cult to apply to topic models in practice. We present what is to our knowledge the first effective AEVB based inference method for latent Dirichlet allocation (LDA), which we call Autoencoded Variational Inference For Topic Model (AVITM). This model tackles the problems caused for AEVB by the Dirichlet prior and by component collapsing. We find that AVITM matches traditional methods in accuracy with much better inference time. Indeed, because of the inference network, we find that it is unnecessary to pay the computational cost of running variational optimization on test data. Because AVITM is black box, it is readily applied to new topic models. As a dramatic illustration of this, we present a new topic model called ProdLDA, that replaces the mixture model in LDA with a product of experts. By changing only one line of code from LDA, we find that ProdLDA yields much more interpretable topics, even if LDA is trained via collapsed Gibbs sampling.
+</li>
 
 ---
 
