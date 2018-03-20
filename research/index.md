@@ -73,14 +73,14 @@ title: Research
 <p>
    [ <a href="http://arxiv.org/abs/1602.06886">.pdf</a>
 	| <a href="javascript:toggle('bibarxiv:tinder2016', 'bib_link_arxiv:tinder2016', 'bib')"  id="bib_link_arxiv:tinder2016">bib</a>
-	| <a href="javascript:toggle('absarxiv:tinder2016', 'absarxiv:tinder2016', 'abstract')" id="aabsarxiv:tinder2016">abstract</a>
+	| <a href="javascript:toggle('abstinder2016', 'abs_link_tinder2016', 'abstract')" id="abs_link_tinder2016">abstract</a>
    ]
 </p>
 
 
 
-<div id="divarxiv:tinder2016"></div>
-<div style="display:none;" id="absarxiv:tinder2016"><div class="abstract">A good clustering can help a data analyst to explore and understand a data set, 
+<div id="divtinder2016"></div>
+<div style="display:none;" id="abstinder2016"><div class="abstract">A good clustering can help a data analyst to explore and understand a data set, 
 but what constitutes a good clustering may depend on domain-specific and application
  specific criteria. These criteria can be difficult to formalize, even when it is easy 
 for an analyst to know a good clustering when she sees one. We present a new approach 
