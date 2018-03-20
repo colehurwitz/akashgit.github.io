@@ -66,7 +66,7 @@ title: Research
 
 <p>
 <a href="http://arxiv.org/abs/1602.06886"><b>Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation</b></a>.&nbsp;Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton.
-	In <i>Workshop on Human Interpretability in Machine Learning Workshop on Human Interpretability in Machine Learning (co-located with ICML)</i>.  2016.
+	In <i>Workshop on Human Interpretability in Machine Learning (co-located with ICML) and Interactive Data Exploration and Analytics Workshop,KDD (Oral)</i>.  2016.
 
 </p>
 
@@ -96,65 +96,57 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 <div style="display:none;" id="bibarxiv:tinder2016"><pre class="bibtex">@inproceedings{arxiv:tinder2016,
   author = {Srivastava, Akash and Zou, James and Adams, Ryan P. and Sutton, Charles},
-  booktitle = {Workshop on Human Interpretability in Machine Learning Workshop on Human Interpretability in Machine Learning (co-located with ICML)},
+  booktitle = {Workshop on Human Interpretability in Machine Learning (co-located with ICML)},
   journal = {ArXiv e-prints},
   title = {Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation},
   year = {2016}
 }
 </pre></div>
 
-
 ---
 
-## 3. [Clustering with a Reject Option: Interactive Clustering as Bayesian Prior Elicitation](https://arxiv.org/abs/1602.06886)
+<p>
+<a href="http://arxiv.org/abs/1602.06886"><b>Variational Inference In Pachinko Allocation Machines</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
+	Pre-print Avaialble.
 
-> #### Authors: `Akash Srivastava, James Zou, Ryan P. Adams and Charles Sutton`
+</p>
 
-> #### Abstract
+<p>
+   [ <a href="javascript:toggle('abspam2018', 'abs_link_pam2018', 'abstract')" id="abs_link_pam2018">abstract</a>
+   ]
+</p>
 
->> A good clustering can help a data analyst to explore and understand a data set, 
-but what constitutes a good clustering may depend on domain-specific and application
- specific criteria. These criteria can be difficult to formalize, even when it is easy 
-for an analyst to know a good clustering when she sees one. We present a new approach 
-to interactive clustering for data exploration, called TINDER, based on a particularly simple
-feedback mechanism, in which an analyst can choose to reject individual clusters and 
-request new ones. The new clusters should be different from previously rejected clusters
-while still fitting the data well. We formalize this interaction in a novel Bayesian prior
-elicitation framework. In each iteration, the prior is adapted to account for all the 
-previous feedback, and a new clustering is then produced from the posterior distribution.
-To achieve the computational efficiency necessary for an interactive setting, we propose 
-an incremental optimization method over data minibatches using Lagrangian relaxation. 
-Experiments demonstrate that TINDER can produce accurate and diverse clusterings.
+<div id="divpam2018"></div>
+<div style="display:none;" id="abspam2018"><div class="abstract">The Pachinko Allocation Machine (PAM) is a deep topic model that allows representing rich correlation structures among topics by a directed acyclic graph over topics. Because of the flexibility of the model, however, approximate inference is very difficult. Perhaps for this reason, only a small number of potential PAM architectures have been explored in the literature. In this paper we present an efficient and flexible amortized variational inference method for PAM, using a deep inference network to parameterize the approximate posterior distribution in a manner similar to the variational autoencoder. Our inference method produces more coherent topics than state-of-art inference methods for PAM while being an order of magnitude faster, which allows exploration of a wider range of PAM architectures than have previously been studied.</div></div>
 
----
 
-## 4. Variational Inference In Pachinko Allocation Machines
+<p>
+<a href="http://arxiv.org/abs/1602.06886"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Yarin Gal, Akash Srivastava.
+	Pre-print Avaialble.
 
-> #### Authors: `Akash Srivastava and Charles Sutton`
+</p>
 
-> #### Abstract
+<p>
+   [ <a href="javascript:toggle('abspam2018', 'abs_link_pam2018', 'abstract')" id="abs_link_pam2018">abstract</a>
+   ]
+</p>
 
->> The Pachinko Allocation Machine (PAM) is a deep topic model that allows representing rich correlation structures among topics by a directed acyclic graph over topics. Because of the flexibility of the model, however, approximate inference is very difficult. Perhaps for this reason, only a small number of potential PAM architectures have been explored in the literature. In this paper we present an efficient and flexible amortized variational inference method for PAM, using a deep inference network to parameterize the approximate posterior distribution in a manner similar to the variational autoencoder. Our inference method produces more coherent topics than state-of-art inference methods for PAM while being an order of magnitude faster, which allows exploration of a wider range of PAM architectures than have previously been studied.
+<div id="divpam2018"></div>
+<div style="display:none;" id="abspam2018"><div class="abstract">Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.</div></div>
 
----
+<p>
+<a href="http://arxiv.org/abs/1602.06886"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
+	Pre-print Avaialble.
 
-## 5. Vadam: Fast and Scalable Variational Inference by Perturbing Adam
+</p>
 
-> #### Authors: `Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Yarin Gal, Akash Srivastava`
+<p>
+   [ <a href="javascript:toggle('abspam2018', 'abs_link_pam2018', 'abstract')" id="abs_link_pam2018">abstract</a>
+   ]
+</p>
 
-> #### Abstract
-
->> Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.
-
----
-
-## 6. Synthesis of Differentiable Functional Programs for Lifelong Learning
-
-> #### Authors: `Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton`
-
-> #### Abstract
-
->> We present a neurosymbolic approach to the lifelong learning
+<div id="divpam2018"></div>
+<div style="display:none;" id="abspam2018"><div class="abstract">We present a neurosymbolic approach to the lifelong learning
         of algorithmic tasks that mix perception and procedural
         reasoning. Reusing high-level concepts across domains and learning
         complex procedures are two key challenges in lifelong learning. We
@@ -174,17 +166,24 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
         is able to significantly prune the search space of programs,
         and that the overall approach transfers high-level concepts
         more effectively than monolithic neural networks as well as
-        traditional transfer learning.
+        traditional transfer learning.</div></div>
+	
+	
 
----
+<p>
+<a href="http://arxiv.org/abs/1602.06886"><b>Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection</b></a>.&nbsp;Akash Srivastava.
+	MSc Thesis.
 
-## 7. [Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection](http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf)
+</p>
 
-> #### Author: `Akash Srivastava`
+<p>
+   [ <a href="http://project-archive.inf.ed.ac.uk/msc/20141611/msc_proj.pdf">.pdf</a>
+	| <a href="javascript:toggle('abspam2018', 'abs_link_pam2018', 'abstract')" id="abs_link_pam2018">abstract</a>
+   ]
+</p>
 
-> #### Abstract 
-
->> First Story Detection or FSD is one of the 5 tasks defined under the Topic Detection andTracking program with the purpose to identify the onset of a previously unseen event in
+<div id="divpam2018"></div>
+<div style="display:none;" id="abspam2018"><div class="abstract">First Story Detection or FSD is one of the 5 tasks defined under the Topic Detection andTracking program with the purpose to identify the onset of a previously unseen event in
 a stream of news stories. In this work, we report on the development and evaluation of
 a feature-pivoted approach to this task. Our method uses the output of a burst detection
 algorithm to modulate the traditional document clustering based approach to FSD.
@@ -197,6 +196,4 @@ quantifying the chance of the set being the first story on the event that it rel
 the final step all the detected first stories are passed through a restricted clustering unit
 that uses cosine similarity to cluster together stories that are on the same topic, hence
 reducing false alarms. Our experiments show that the resultant FSD system performs
-substantially better than the document-pivoted state-of-art baseline system.
-
----
+substantially better than the document-pivoted state-of-art baseline system.</div></div>
