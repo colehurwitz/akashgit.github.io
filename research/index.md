@@ -120,7 +120,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 
 <p>
-<a href="vadam-version.pdf"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Yarin Gal, Akash Srivastava.
+<a href="vadam-version.pdf"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Didrik Nielsen, Yarin Gal, Akash Srivastava.
 </p>
 
 <p>
