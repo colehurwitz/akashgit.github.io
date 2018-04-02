@@ -107,7 +107,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 
 <p>
-<a href="http://arxiv.org/abs/1602.06886"><b>Variational Inference In Pachinko Allocation Machines</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
+<a href="pam-naacl.pdf"><b>Variational Inference In Pachinko Allocation Machines</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
 </p>
 
 <p>
@@ -120,7 +120,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 
 
 <p>
-<a href="http://arxiv.org/abs/1602.06886"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Yarin Gal, Akash Srivastava.
+<a href="vadam-version.pdf"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Yarin Gal, Akash Srivastava.
 </p>
 
 <p>
@@ -132,7 +132,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 <div style="display:none;" id="absvadam2018"><div class="abstract">Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.</div></div>
 
 <p>
-<a href="http://arxiv.org/abs/1602.06886"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
+<a href="nsys.pdf"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
 </p>
 
 <p>
@@ -167,7 +167,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 ---
 ### Thesis
 <p>
-<a href="http://arxiv.org/abs/1602.06886"><b>Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection</b></a>.&nbsp;Akash Srivastava.
+<b>Burst Detection Modulated Document Clustering: A Partially Feature-Pivoted Approach To First Story Detection</b>.&nbsp;Akash Srivastava.
 	MSc Thesis.
 
 </p>
