@@ -5,7 +5,7 @@ title: Research
 
 ### Publications
 <p>
-<a href="publications/avitm.pdf"><b>Autoencoding Variational Inference for Topic Models</b></a>.&nbsp;Akash Srivastava and Charles Sutton. In <i>International Conference on Learning Representations (ICLR)</i>.  2017.
+<a href="https://akashgit.github.io/autoencoding_vi_for_topic_models"><b>Autoencoding Variational Inference for Topic Models</b></a>.&nbsp;Akash Srivastava and Charles Sutton. In <i>International Conference on Learning Representations (ICLR)</i>.  2017.
 </p>
 
 <p>
