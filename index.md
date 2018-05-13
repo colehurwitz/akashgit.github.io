@@ -21,6 +21,7 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 ---
 
 # News:
+- Our paper, Vadam: Fast and Scalable Variational Inference by Perturbing Adam got accepted at ICML, 2018.
 - I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary as a visiting researcher.
 
 
