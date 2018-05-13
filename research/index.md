@@ -102,6 +102,26 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 }
 </pre></div>
 
+<p>
+<a href="vadam-version.pdf"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Didrik Nielsen, Yarin Gal, Akash Srivastava.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('bibarxiv:vadam2018', 'bib_link_arxiv:vadam2018', 'bib')"  id="bib_link_arxiv:vadam2018">bib</a> |<a href="javascript:toggle('absvadam2018', 'abs_link_vadam2018', 'abstract')" id="abs_link_vadam2018">abstract</a>
+   ]
+</p>
+
+<div id="divvadam2018"></div>
+<div style="display:none;" id="absvadam2018"><div class="abstract">Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.</div></div>
+
+<div style="display:none;" id="bibarxiv:vadam2018"><pre class="bibtex">@inproceedings{arxiv:vadam2018,
+  author = {Khan Mohammad Emtiyaz, Liu Zuozhu, Tangkaratt Voot, Nielsen Didrik, Gal Yarin, Srivastava Akash},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  title = {Vadam: Fast and Scalable Variational Inference by Perturbing Adam},
+  year = {2018}
+}
+</pre></div>
+
 ---
 ### Preprints
 
@@ -119,17 +139,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 <div style="display:none;" id="abspam2018"><div class="abstract">The Pachinko Allocation Machine (PAM) is a deep topic model that allows representing rich correlation structures among topics by a directed acyclic graph over topics. Because of the flexibility of the model, however, approximate inference is very difficult. Perhaps for this reason, only a small number of potential PAM architectures have been explored in the literature. In this paper we present an efficient and flexible amortized variational inference method for PAM, using a deep inference network to parameterize the approximate posterior distribution in a manner similar to the variational autoencoder. Our inference method produces more coherent topics than state-of-art inference methods for PAM while being an order of magnitude faster, which allows exploration of a wider range of PAM architectures than have previously been studied.</div></div>
 
 
-<p>
-<a href="vadam-version.pdf"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Didrik Nielsen, Yarin Gal, Akash Srivastava.
-</p>
 
-<p>
-   [ <a href="javascript:toggle('absvadam2018', 'abs_link_vadam2018', 'abstract')" id="abs_link_vadam2018">abstract</a>
-   ]
-</p>
-
-<div id="divvadam2018"></div>
-<div style="display:none;" id="absvadam2018"><div class="abstract">Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.</div></div>
 
 <p>
 <a href="https://arxiv.org/abs/1804.00218"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
