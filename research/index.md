@@ -107,7 +107,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </p>
 
 <p>
-   [ <a href="javascript:toggle('bibarxiv:vadam2018', 'bib_link_arxiv:vadam2018', 'bib')"  id="bib_link_arxiv:vadam2018">bib</a> |<a href="javascript:toggle('absvadam2018', 'abs_link_vadam2018', 'abstract')" id="abs_link_vadam2018">abstract</a>
+   [ <a href="javascript:toggle('bibarxiv:vadam2018', 'bib_link_arxiv:vadam2018', 'bib')"  id="bib_link_arxiv:vadam2018">bib</a> | <a href="javascript:toggle('absvadam2018', 'abs_link_vadam2018', 'abstract')" id="abs_link_vadam2018">abstract</a>
    ]
 </p>
 
