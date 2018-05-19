@@ -125,6 +125,32 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 ---
 ### Preprints
 
+<p>
+<a href="rmn.pdf"><b>Ratio Matching MMD Nets: Low dimensional
+projections for effective deep generative models</b></a>.&nbsp;Akash Srivastava, Kai Xu, Michael U. Gutmann and Charles Sutton.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('absrmn2018', 'abs_link_rmn2018', 'abstract')" id="abs_link_rmn2018">abstract</a>
+   ]
+</p>
+
+<div id="divrmn2018"></div>
+<div style="display:none;" id="absrmn2018"><div class="abstract">Deep generative models can learn to generate realistic-looking images on several
+natural image datasets, but many of the most effective methods are adversarial
+methods, which require careful balancing of training between a generator network
+and a discriminator network. Maximum mean discrepancy networks (MMD-nets)
+avoid this issue using the kernel trick, but unfortunately they have not on their
+own been able to match the performance of adversarial training. We present a new
+method of training MMD-nets, based on learning a mapping of samples from the
+data and from the model into a lower dimensional space, in which MMD training
+can be more effective. We call these networks ratio matching MMD networks (RM10
+MMDnets). We train the mapping to preserve density ratios between the densities
+over the low-dimensional space and the original space. This ensures that matching
+the model distribution to the data in the low-dimensional space will also match the
+original distributions. We show that RM-MMDnets have better performance and
+better stability than recent adversarial methods for training MMD-nets.</div></div>
+
 
 <p>
 <a href="pam-naacl.pdf"><b>Variational Inference In Pachinko Allocation Machines</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
