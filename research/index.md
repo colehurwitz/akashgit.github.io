@@ -144,7 +144,7 @@ avoid this issue using the kernel trick, but unfortunately they have not on thei
 own been able to match the performance of adversarial training. We present a new
 method of training MMD-nets, based on learning a mapping of samples from the
 data and from the model into a lower dimensional space, in which MMD training
-can be more effective. We call these networks ratio matching MMD networks (RM10
+can be more effective. We call these networks ratio matching MMD networks (RM-
 MMDnets). We train the mapping to preserve density ratios between the densities
 over the low-dimensional space and the original space. This ensures that matching
 the model distribution to the data in the low-dimensional space will also match the
