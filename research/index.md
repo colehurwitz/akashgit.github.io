@@ -126,12 +126,13 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 ### Preprints
 
 <p>
-<a href="rmn.pdf"><b>Ratio Matching MMD Nets: Low dimensional
+<a href="https://arxiv.org/abs/1806.00101"><b>Ratio Matching MMD Nets: Low dimensional
 projections for effective deep generative models</b></a>.&nbsp;Akash Srivastava, Kai Xu, Michael U. Gutmann and Charles Sutton.
 </p>
 
 <p>
    [ <a href="javascript:toggle('absrmn2018', 'abs_link_rmn2018', 'abstract')" id="abs_link_rmn2018">abstract</a>
+| <a href="https://github.com/akashgit/RM-MMDnet">source code</a>
    ]
 </p>
 
