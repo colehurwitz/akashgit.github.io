@@ -21,7 +21,7 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 ---
 
 # News:
-- New paper (https://arxiv.org/abs/1806.00101) Ratio Matching MMD Nets: Low dimensional projections for effective deep generative models.
+- New paper [Ratio Matching MMD Nets: Low dimensional projections for effective deep generative models.](https://arxiv.org/abs/1806.00101) 
 - Our paper, Vadam: Fast and Scalable Variational Inference by Perturbing Adam got accepted at ICML, 2018.
 - I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary as a visiting researcher.
 
