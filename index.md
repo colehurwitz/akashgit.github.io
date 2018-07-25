@@ -22,7 +22,7 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 
 # News:
 - New paper [Ratio Matching MMD Nets: Low dimensional projections for effective deep generative models.](https://arxiv.org/abs/1806.00101) 
-- Our paper, Vadam: Fast and Scalable Variational Inference by Perturbing Adam got accepted at ICML, 2018.
+- Our paper, [Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam](https://arxiv.org/abs/1806.04854) got accepted at ICML, 2018.
 - I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary (2018) as a visiting researcher.
 - I will be interning at Microsoft Research, Cambridge this (2017) summer.
 
