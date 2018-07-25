@@ -103,7 +103,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </pre></div>
 
 <p>
-<a href="#"><b>Vadam: Fast and Scalable Variational Inference by Perturbing Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Zuozhu Liu, Voot Tangkaratt, Didrik Nielsen, Yarin Gal, Akash Srivastava. In <i>International Conference on Machine Learning (ICML)</i>.  2018.
+<a href="https://arxiv.org/abs/1806.04854"><b>Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam</b></a>.&nbsp;Mohammad Emtiyaz Khan, Voot Tangkaratt, Didrik Nielsen, Wu Lin, Yarin Gal, Akash Srivastava. In <i>International Conference on Machine Learning (ICML)</i>.  2018.
 </p>
 
 <p>
@@ -112,7 +112,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </p>
 
 <div id="divvadam2018"></div>
-<div style="display:none;" id="absvadam2018"><div class="abstract">Uncertainty computation in deep learning is essential, but variational inference methods are difficult to implement within existing deep-learning code-bases. We propose Vadam, a new method for mean-field variational inference that can be implemented within Adam by simply perturbing the network weights during gradient evaluations. The variance of the perturbation represents the weight uncertainty and is automatically obtained from the vector that adapts the learning rate. We derive Vadam using a novel natural-momentum method for mirror descent algorithms. Using Vadam, we are able to ``read-off'' uncertainty estimates while training with Adam. Vadam requires lower memory, computation, and implementation efforts than existing methods for VI, and our empirical experiments confirm these findings. Our experiments also suggest that the perturbation used in Vadam may be useful for exploration to avoid local sharp minima.</div></div>
+<div style="display:none;" id="absvadam2018"><div class="abstract">Uncertainty computation in deep learning is essential to design robust and reliable systems. Variational inference (VI) is a promising approach for such computation, but requires more effort to implement and execute compared to maximum-likelihood methods. In this paper, we propose new natural-gradient algorithms to reduce such efforts for Gaussian mean-field VI. Our algorithms can be implemented within the Adam optimizer by perturbing the network weights during gradient evaluations, and uncertainty estimates can be cheaply obtained by using the vector that adapts the learning rate. This requires lower memory, computation, and implementation effort than existing VI methods, while obtaining uncertainty estimates of comparable quality. Our empirical results confirm this and further suggest that the weight-perturbation in our algorithm could be useful for exploration in reinforcement learning and stochastic optimization.</div></div>
 
 <div style="display:none;" id="bibarxiv:vadam2018"><pre class="bibtex">@inproceedings{arxiv:vadam2018,
   author = {Khan Mohammad Emtiyaz, Liu Zuozhu, Tangkaratt Voot, Nielsen Didrik, Gal Yarin, Srivastava Akash},
