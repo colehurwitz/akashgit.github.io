@@ -21,6 +21,7 @@ I'm a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/abo
 ---
 
 # News:
+- Our paper, [Synthesis of Differentiable Functional Programs for Lifelong Learning](https://arxiv.org/abs/1804.00218) got accepted at NIPS, 2018.
 - New paper [Ratio Matching MMD Nets: Low dimensional projections for effective deep generative models.](https://arxiv.org/abs/1806.00101) 
 - Our paper, [Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam](https://arxiv.org/abs/1806.04854) got accepted at ICML, 2018.
 - I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary (2018) as a visiting researcher.
