@@ -123,7 +123,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </pre></div>
 
 <p>
-<a href="https://arxiv.org/abs/1804.00218"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton. In <i>Advances in Neural Information Processing Systems (NIPS)</i>.  2017.
+<a href="https://arxiv.org/abs/1804.00218"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton. In <i>Advances in Neural Information Processing Systems (NIPS)</i>.  2018.
 </p>
 
 <p>
