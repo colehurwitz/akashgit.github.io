@@ -122,6 +122,38 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 }
 </pre></div>
 
+<p>
+<a href="https://arxiv.org/abs/1804.00218"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('absns2018', 'abs_link_ns2018', 'abstract')" id="abs_link_ns2018">abstract</a>
+   ]
+</p>
+
+<div id="divns2018"></div>
+<div style="display:none;" id="absns2018"><div class="abstract">We present a neurosymbolic approach to the lifelong learning
+        of algorithmic tasks that mix perception and procedural
+        reasoning. Reusing high-level concepts across domains and learning
+        complex procedures are two key challenges in lifelong learning. We
+        show that a combination of gradient-based learning and {symbolic
+        program synthesis} can be a more effective response to these
+        challenges than purely neural methods. Concretely, our approach,
+        called Houdini, represents neural networks as strongly typed,
+        end-to-end differentiable functional programs that use 
+        symbolic higher-order combinators to compose a library of neural
+        functions. Our learning algorithm consists of: (1) a program synthesizer
+        that performs a type-directed search over programs in this language,
+        and decides on the library functions that should be reused and the
+        architectures that should be used to combine them; and (2) a neural
+        module that trains synthesized programs using stochastic gradient
+        descent. We evaluate our approach on three algorithmic tasks.
+        Our experiments show that our type-directed search technique
+        is able to significantly prune the search space of programs,
+        and that the overall approach transfers high-level concepts
+        more effectively than monolithic neural networks as well as
+        traditional transfer learning.</div></div>
+
 ---
 ### Preprints
 
@@ -168,37 +200,7 @@ better stability than recent adversarial methods for training MMD-nets.</div></d
 
 
 
-<p>
-<a href="https://arxiv.org/abs/1804.00218"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
-</p>
 
-<p>
-   [ <a href="javascript:toggle('absns2018', 'abs_link_ns2018', 'abstract')" id="abs_link_ns2018">abstract</a>
-   ]
-</p>
-
-<div id="divns2018"></div>
-<div style="display:none;" id="absns2018"><div class="abstract">We present a neurosymbolic approach to the lifelong learning
-        of algorithmic tasks that mix perception and procedural
-        reasoning. Reusing high-level concepts across domains and learning
-        complex procedures are two key challenges in lifelong learning. We
-        show that a combination of gradient-based learning and {symbolic
-        program synthesis} can be a more effective response to these
-        challenges than purely neural methods. Concretely, our approach,
-        called Houdini, represents neural networks as strongly typed,
-        end-to-end differentiable functional programs that use 
-        symbolic higher-order combinators to compose a library of neural
-        functions. Our learning algorithm consists of: (1) a program synthesizer
-        that performs a type-directed search over programs in this language,
-        and decides on the library functions that should be reused and the
-        architectures that should be used to combine them; and (2) a neural
-        module that trains synthesized programs using stochastic gradient
-        descent. We evaluate our approach on three algorithmic tasks.
-        Our experiments show that our type-directed search technique
-        is able to significantly prune the search space of programs,
-        and that the overall approach transfers high-level concepts
-        more effectively than monolithic neural networks as well as
-        traditional transfer learning.</div></div>
 	
 	
 ---
