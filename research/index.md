@@ -123,11 +123,11 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 </pre></div>
 
 <p>
-<a href="https://arxiv.org/abs/1804.00218"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton.
+<a href="https://arxiv.org/abs/1804.00218"><b>Synthesis of Differentiable Functional Programs for Lifelong Learning</b></a>.&nbsp;Lazar Valkov, Dipak Chaudhari, Akash Srivastava, Swarat Chaudhuri and Charles Sutton. In <i>Advances in Neural Information Processing Systems (NIPS)</i>.  2017.
 </p>
 
 <p>
-   [ <a href="javascript:toggle('absns2018', 'abs_link_ns2018', 'abstract')" id="abs_link_ns2018">abstract</a>
+   [ <a href="javascript:toggle('bibarxiv:houdini2018', 'bib_link_arxiv:houdini2018', 'bib')"  id="bib_link_arxiv:houdini2018">bib</a> | <a href="javascript:toggle('absns2018', 'abs_link_ns2018', 'abstract')" id="abs_link_ns2018">abstract</a>
    ]
 </p>
 
@@ -153,6 +153,13 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
         and that the overall approach transfers high-level concepts
         more effectively than monolithic neural networks as well as
         traditional transfer learning.</div></div>
+	
+<div style="display:none;" id="bibarxiv:houdini2018"><pre class="bibtex">@inproceedings{arxiv:houdini2018,
+  author = {Valkov Lazar, Chaudhari Dipak, Srivastava Akash, Chaudhuri Swarat and Sutton Charles},
+  booktitle = {Advances in Neural Information Processing Systems (NIPS)},
+  title = {Synthesis of Differentiable Functional Programs for Lifelong Learning},
+  year = {2018}
+}
 
 ---
 ### Preprints
