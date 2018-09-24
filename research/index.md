@@ -131,6 +131,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
    ]
 </p>
 
+
 <div id="divns2018"></div>
 <div style="display:none;" id="absns2018"><div class="abstract">We present a neurosymbolic approach to the lifelong learning
         of algorithmic tasks that mix perception and procedural
@@ -160,6 +161,7 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
   title = {Synthesis of Differentiable Functional Programs for Lifelong Learning},
   year = {2018}
 }
+</pre></div>
 
 ---
 ### Preprints
