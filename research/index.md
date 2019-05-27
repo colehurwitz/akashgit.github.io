@@ -204,7 +204,7 @@ Interpretable Generative Models</b></a>.&nbsp;Akash Srivastava, Jessie Rosenberg
 </p>
 
 <p>
-   [ <a href="javascript:toggle('abspam2018', 'abs_link_simvae2019', 'abstract')" id="abs_link_simvae2019">abstract</a>
+   [ <a href="javascript:toggle('abssimvae2019', 'abs_link_simvae2019', 'abstract')" id="abs_link_simvae2019">abstract</a>
    ]
 </p>
 
