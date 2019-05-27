@@ -199,7 +199,61 @@ Beta-Bernoulli (Indian buffet process) prior.</div></div>
 ### Preprints
 
 <p>
-<a href="https://arxiv.org/abs/1806.00101"><b>Ratio Matching MMD Nets: Low dimensional
+<a href="simvae.pdf"><b>SimVAE: Simulator-Assisted Training for
+Interpretable Generative Models</b></a>.&nbsp;Akash Srivastava, Jessie Rosenberg, Dan Gutfreund and David D. Cox.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('abspam2018', 'abs_link_simvae2019', 'abstract')" id="abs_link_simvae2019">abstract</a>
+   ]
+</p>
+
+<div id="divsimvae2019"></div>
+<div style="display:none;" id="abssimvae2019"><div class="abstract">This paper presents a simulator-assisted training method (SimVAE) for variational
+autoencoders (VAE) that leads to a disentangled and interpretable latent space.
+Training SimVAE is a two step process in which first a deep generator network
+(decoder) is trained to approximate the simulator. During this step the simulator acts
+as the data source or as a teacher network. Then an inference network (encoder)
+is trained to invert the decoder. As such, upon complete training, the encoder
+represents an approximately inverted simulator. By decoupling the training of
+the encoder and decoder we bypass some of the difficulties that arise in training
+generative models such as VAEs and generative adversarial networks (GANs). We
+show applications of our approach in a variety of domains such as circuit design,
+graphics de-rendering and other natural science problems that involve inference
+via simulation.</div></div>
+
+<p>
+<a href="bregmn.pdf"><b>BreGMN: scaled-Bregman Generative Modeling
+Networks</b></a>.&nbsp;Akash Srivastava, Kristjan Greenewald and Farzaneh Mirzazadeh.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('absbregmn2019', 'abs_link_bregmn2019', 'abstract')" id="abs_link_bregmn2019">abstract</a>
+   ]
+</p>
+
+<div id="divbregmn2019"></div>
+<div style="display:none;" id="absbregmn2019"><div class="abstract">The family of f-divergences is ubiquitously applied to generative modeling in
+order to adapt the distribution of the model to that of the data. Well-definedness
+of f-divergences, however, requires the distributions of the data and model to
+overlap completely in every time step of training. As a result, as soon as the support
+of distributions of data and model contain non-overlapping portions, gradientbased training of the corresponding model becomes hopeless. Recent advances
+in generative modeling are full of remedies for handling this support mismatch
+problem: key ideas include either modifying the objective function to integral
+probability measures (IPMs) that are well-behaved even on disjoint probabilities,
+or optimizing a well-behaved variational lower bound instead of the true objective.
+We, on the other hand, establish that a complete change of the objective function is
+unnecessary, and instead an augmentation of the base measure of the problematic
+divergence can resolve the issue. Based on this observation, we propose a generative
+model which leverages the class of Scaled Bregman Divergences and generalizes
+both f-divergences and Bregman divergences. We analyze this class of divergences
+and show that with the appropriate choice of base measure it can resolve the support
+mismatch problem and incorporate geometric information. Finally, we study the
+performance of the proposed method and demonstrate promising results on MNIST,
+CelebA and CIFAR-10 datasets.</div></div>
+
+<p>
+<a href="rmn.pdf"><b>Ratio Matching MMD Nets: Low dimensional
 projections for effective deep generative models</b></a>.&nbsp;Akash Srivastava, Kai Xu, Michael U. Gutmann and Charles Sutton.
 </p>
 
