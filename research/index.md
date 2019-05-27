@@ -281,6 +281,33 @@ better stability than recent adversarial methods for training MMD-nets.</div></d
 
 
 <p>
+<a href="cole.pdf"><b>Scalable Spike Source Localization in Extracellular
+Recordings using Amortized Variational Inference</b></a>.&nbsp;Cole L. Hurwitz, Kai Xu, Akash Srivastava, Alessio Paolo Buccino and Matthias Hennig.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('abscole2019', 'abs_link_cole2019', 'abstract')" id="abs_link_cole2019">abstract</a>
+   ]
+</p>
+
+<div id="divcole2019"></div>
+<div style="display:none;" id="abscole2019"><div class="abstract">Extracellular recordings using modern, dense probes provide detailed footprints of
+action potentials (spikes) from thousands of neurons simultaneously. Inferring the
+activity of single neurons from these recordings, however, is a complex blind source
+separation problem, complicated both by the high intrinsic data dimensionality and
+large data volume. Despite these complications, dense probes can allow for the
+estimation of a spike’s source location, a powerful feature for determining the firing
+neuron’s position and identity in the recording. Here we present a novel, generative
+model for inferring the source of individual spikes given observed electrical traces.
+To allow for scalable, efficient inference, we implement our model as a variational
+autoencoder and perform amortized variational inference. We evaluate our method
+on biophysically realistic simulated datasets, showing that our method outperforms
+heuristic localization methods such as center of mass and can improve spike sorting
+performance significantly. We further apply our model to real data to show that it
+is an effective, interpretable tool for analyzing large-scale extracellular recordings.</div></div>
+
+
+<p>
 <a href="pam-naacl.pdf"><b>Variational Inference In Pachinko Allocation Machines</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
 </p>
 
