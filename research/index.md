@@ -163,6 +163,38 @@ Experiments demonstrate that TINDER can produce accurate and diverse clusterings
 }
 </pre></div>
 
+
+<p>
+<a href="http://xuk.ai/assets/xu2019rave.pdf"><b>Variational Russian Roulette for Deep Bayesian Nonparametrics.</b></a>.&nbsp;Kai Xu, Akash Srivastava and Charles Sutton. In <i>International Conference on Machine Learning (ICML)</i>.  2019.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('bibarxiv:vrr2019', 'bib_link_arxiv:vrr2019', 'bib')"  id="bib_link_arxiv:vrr2019">bib</a> | <a href="javascript:toggle('absvrr2019', 'abs_link_vrr2019', 'abstract')" id="abs_link_vrr2019">abstract</a>
+   ]
+</p>
+
+
+<div id="divvrr2019"></div>
+<div style="display:none;" id="absvrr2019"><div class="abstract">Bayesian nonparametric models provide a principled way to automatically adapt the complexity
+of a model to the amount of the data available, but
+computation in such models is difficult. Amortized variational approximations are appealing because of their computational efficiency, but current methods rely on a fixed finite truncation of
+the infinite model. This truncation level can be
+difficult to set, and also interacts poorly with amortized methods due to the over-pruning problem.
+Instead, we propose a new variational approximation, based on a method from statistical physics
+called Russian roulette sampling. This allows
+the variational distribution to adapt its complexity during inference, without relying on a fixed
+truncation level, and while still obtaining an unbiased estimate of the gradient of the original variational objective. We demonstrate this method
+on infinite sized variational auto-encoders using a
+Beta-Bernoulli (Indian buffet process) prior.</div></div>
+	
+<div style="display:none;" id="bibarxiv:vrr2019"><pre class="bibtex">@inproceedings{arxiv:vrr2019,
+  author = {Kai Xu, Akash Srivastava and Charles Sutton},
+  booktitle = {International Conference on Machine Learning (ICML) (NIPS)},
+  title = {Variational Russian Roulette for Deep Bayesian Nonparametrics.},
+  year = {2019}
+}
+</pre></div>
+
 ---
 ### Preprints
 
