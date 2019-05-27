@@ -12,7 +12,7 @@ title: Akash Srivastava
 		variational inference</a> and <br>interactive machine learning primarily for unsupervised models. </p>
 </div><!-- /.blurb --> 
 
-<img style="float: right;" src="/profile.jpg">
+<img style="float: right;" src="/prof.png">
 
 #   Akash Srivastava
 I am a research scientist at the new [MIT-IBM lab](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA where I work on [building machines with child-like common sense](https://bcs.mit.edu/) using probabilitic modelling and Bayesian inference. 
