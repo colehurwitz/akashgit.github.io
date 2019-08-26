@@ -16,7 +16,7 @@ title: Akash Srivastava
 
 #   Akash Srivastava
 I am a research scientist at the new [MIT-IBM lab](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA where I work on [building machines with child-like common-sense and intuitive physics](https://bcs.mit.edu/) using probabilistic modeling and Bayesian inference. 
-Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum at the University of Edinburgh where I worked with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) and [Dr Michael U. Gutmann](https://sites.google.com/site/michaelgutmann/) on variational inference for generative models using deep learning.
+Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum) at the University of Edinburgh where I worked with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) and [Dr Michael U. Gutmann](https://sites.google.com/site/michaelgutmann/) on variational inference for generative models using deep learning.
 
 ---
 
