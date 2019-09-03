@@ -21,7 +21,7 @@ Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/
 ---
 
 # News:
-- Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference.](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
+- Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
 - New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
 - New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/bregmn.pdf)
 - Our paper, [Variational Russian Roulette for Deep Bayesian Nonparametrics.](http://xuk.ai/assets/xu2019rave.pdf) got accepted at ICML, 2019.
